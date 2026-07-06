@@ -3,7 +3,7 @@ Repository: vitest-dev/vitest
 Url: "https://github.com/vitest-dev/vitest"
 Args: ["--issues-summary-report","--locale=en,en-GB","."]
 Lines:
- CSpell: Files checked: 2725, skipped: 5, Issues found: 1756 in 457 files.
+ CSpell: Files checked: 2711, skipped: 5, Issues found: 1728 in 453 files.
  exit code: 1
 AGENTS.md:135:5     - Unknown word (bumpp)      -- - **bumpp** - Version bumping
 AGENTS.md:136:5     - Unknown word (changelogithub) -- - **changelogithub** - Changelog generation
@@ -185,9 +185,9 @@ docs/guide/learn/snippets/debug-output-fail.ansi:15:27     - Unknown word (mcons
 docs/guide/learn/snippets/debug-output-fail.ansi:15:50     - Unknown word (mcreate)    -- mconst[39m user = [34mcreateUser[39m([32m'Alice
 docs/guide/learn/snippets/debug-output-fail.ansi:16:27     - Unknown word (mexpect)    -- 8|[22m [34mexpect[39m(user).[34mtoEqual
 docs/guide/learn/snippets/test-output-fail.ansi:12:49     - Unknown word (msqrt)      -- mexpect[39m(Math.[34msqrt[39m([34m4[39m)).
-docs/guide/migration.md:199:74    - Unknown word (attachements) -- attachmentsdir)): `.vitest-attachements/` → `.vitest/attachments
-docs/guide/migration.md:383:3     - Unknown word (Automocked)   -- - Automocked instance methods are
-docs/guide/migration.md:405:70    - Unknown word (automocked)   -- getter. By default, automocked getters now return
+docs/guide/migration.md:352:74    - Unknown word (attachements) -- attachmentsdir)): `.vitest-attachements/` → `.vitest/attachments
+docs/guide/migration.md:87:5      - Unknown word (Automocked) -- ### Automocked Modules Stay Automocked
+docs/guide/migration.md:89:85     - Unknown word (automocked) -- the test iframe. An automocked module (a [`vi.mock
 docs/guide/mocking/functions.md:22:46     - Unknown word (Testman)    -- test message', from: 'Testman' },
 docs/guide/mocking/globals.md:14:3      - Unknown word (unobserve)  -- unobserve = vi.fn()
 docs/guide/open-telemetry.md:156:78    - Unknown word (TRACEPARENT) -- parent processes via the `TRACEPARENT` and `TRACESTATE` environment
@@ -229,15 +229,13 @@ netlify.toml:11:157    - Unknown word (nistp)      -- keytype":"ecdsa-sha2-nistp
 netlify.toml:11:75     - Unknown word (keyid)      -- -29T00:00:00.000Z","keyid":"SHA256:jl3bwswu80PjjokCgh
 netlify.toml:2:18      - Unknown word (vitepress)  -- publish = "docs/.vitepress/dist"
 netlify.toml:89:24     - Unknown word (webdriverio) -- from = "/guide/browser/webdriverio"
-package.json:32:6      - Unknown word (typebuild)  -- "typebuild": "tsx ./scripts/explain
+package.json:34:6      - Unknown word (typebuild)  -- "typebuild": "tsx ./scripts/explain
 packages/browser-playwright/package.json:44:15     - Unknown word (premove)    -- "build": "premove dist && pnpm rollup
 packages/browser-playwright/package.json:59:6      - Unknown word (tinyrainbow) -- "tinyrainbow": "catalog:"
 packages/browser-playwright/src/commands/keyboard.ts:53:115    - Unknown word (Backquote)  -- F10', 'F11', 'F12', 'Backquote', '`', '~', 'Digit1
 packages/browser-playwright/src/playwright.ts:476:20    - Unknown word (frameattached) -- page.on('frameattached', (frame) => {
 packages/browser-playwright/src/playwright.ts:505:16    - Unknown word (requestfailed) -- page.on('requestfailed', (request) => {
 packages/browser-playwright/src/playwright.ts:646:6     - Unknown word (PWCDP)         -- type PWCDPSession = Pick<PlaywrightCDPSe
-packages/browser-webdriverio/package.json:20:6      - Unknown word (wdio)       -- "wdio",
-packages/browser-webdriverio/src/webdriverio.ts:70:42     - Unknown word (WDIO)       -- shutdown timeout because WDIO takes some extra time
 packages/browser/aria-role.d.ts:15:8      - Unknown word (spinbutton)       -- | "spinbutton"
 packages/browser/aria-role.d.ts:31:8      - Unknown word (treegrid)         -- | "treegrid";
 packages/browser/aria-role.d.ts:76:8      - Unknown word (contentinfo)      -- | "contentinfo"
@@ -252,6 +250,8 @@ packages/browser/src/client/public/error-catcher.js:29:17     - Unknown word (Un
 packages/browser/src/client/public/esm-client-injector.js:64:36     - Unknown word (gmix)       -- !/^(?!.*?(.).*?\1)[gmixXsuUAJ]+$/.test(m[3]
 packages/browser/src/client/tester/expect/toHaveAccessibleErrorMessage.ts:19:47     - Unknown word (redent)     -- entFromUserInput, getMessage, redent } from './utils'
 packages/browser/src/client/tester/expect/utils.ts:275:44    - Unknown word (valuenow)   -- element.getAttribute('aria-valuenow'))
+packages/browser/src/client/tester/logger.ts:101:23    - Unknown word (WDIO)       -- if (args[0] === '[WDIO]') {
+packages/browser/src/client/tester/logger.ts:99:37     - Unknown word (wdio)       -- shadow root logs from wdio
 packages/browser/src/client/tester/runner.ts:324:22    - Unknown word (browserv)   -- const query = `browserv=${hash}`
 packages/browser/src/client/tester/runner.ts:325:13    - Unknown word (importpath) -- const importpath = `${prefix}${filepath
 packages/browser/src/client/tester/tester-utils.ts:178:21    - Unknown word (coverd)     -- // is not coverd within by this action
@@ -290,8 +290,6 @@ packages/ui/client/styles/main.css:147:13    - Unknown word (simplescroll) -- .C
 packages/ui/client/styles/main.css:4:17      - Unknown word (Readex)     -- font-family: "Readex Pro", sans-serif;
 packages/ui/vite.config.ts:6:16      - Unknown word (Attributify) -- import { presetAttributify, presetIcons, presetWind
 packages/ui/vite.config.ts:7:8       - Unknown word (Unocss)      -- import Unocss from 'unocss/vite'
-packages/ui/vitest.config.ts:47:33     - Unknown word (CHROMEDRIVER) -- ...(process.env.CHROMEDRIVER_PATH && process.env
-packages/ui/vitest.config.ts:49:29     - Unknown word (chromedriver) -- 'wdio:chromedriverOptions': {
 packages/utils/src/constants.ts:10:4      - Unknown word (pjpeg)      -- 'pjpeg',
 packages/utils/src/constants.ts:43:40     - Unknown word (pcss)       -- sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?
 packages/utils/src/constants.ts:5:4       - Unknown word (apng)       -- 'apng',
@@ -404,21 +402,21 @@ packages/web-worker/src/shared-worker.ts:78:9      - Unknown word (onrtctransfor
 patches/@sinonjs__fake-timers@15.4.0.patch:10:15     - Unknown word (vitest)     -- +if (typeof __vitest_required__ !== 'undefined
 patches/@sinonjs__fake-timers@15.4.0.patch:7:33      - Unknown word (sinonjs)    -- globalObject = require("@sinonjs/commons").global;
 patches/istanbul-lib-instrument.patch:13:8      - Unknown word (istanbuljs) -- "@istanbuljs/schema": "^0.1.3",
-pnpm-workspace.yaml:100:3     - Unknown word (tinyspy)    -- tinyspy: ^4.0.4
-pnpm-workspace.yaml:114:3     - Unknown word (edgedriver) -- edgedriver: true
-pnpm-workspace.yaml:115:3     - Unknown word (esbuild)    -- esbuild: true
-pnpm-workspace.yaml:116:3     - Unknown word (geckodriver) -- geckodriver: true
-pnpm-workspace.yaml:118:3     - Unknown word (protobufjs)  -- protobufjs: true
-pnpm-workspace.yaml:37:3      - Unknown word (mlly)       -- mlly: ^1.8.0
-pnpm-workspace.yaml:38:3      - Unknown word (rollup)     -- rollup: 'catalog:'
-pnpm-workspace.yaml:39:3      - Unknown word (vite)       -- vite: 'catalog:'
-pnpm-workspace.yaml:59:11     - Unknown word (estree)     -- '@types/estree': ^1.0.8
-pnpm-workspace.yaml:67:11     - Unknown word (yauzl)      -- '@types/yauzl': ^2.10.3
-pnpm-workspace.yaml:69:5      - Unknown word (vitejs)     -- '@vitejs/plugin-vue': ^6.0.4
-pnpm-workspace.yaml:72:3      - Unknown word (ansivision) -- ansivision: ^0.2.7
-pnpm-workspace.yaml:92:3      - Unknown word (sirv)       -- sirv: ^3.0.2
-pnpm-workspace.yaml:95:3      - Unknown word (tinybench)  -- tinybench: ^6.0.1
-pnpm-workspace.yaml:97:3      - Unknown word (tinyglobby) -- tinyglobby: ^0.2.15
+pnpm-workspace.yaml:113:3     - Unknown word (edgedriver) -- edgedriver: true
+pnpm-workspace.yaml:114:3     - Unknown word (esbuild)    -- esbuild: true
+pnpm-workspace.yaml:115:3     - Unknown word (geckodriver) -- geckodriver: true
+pnpm-workspace.yaml:117:3     - Unknown word (protobufjs)  -- protobufjs: true
+pnpm-workspace.yaml:36:3      - Unknown word (mlly)       -- mlly: ^1.8.0
+pnpm-workspace.yaml:37:3      - Unknown word (rollup)     -- rollup: 'catalog:'
+pnpm-workspace.yaml:38:3      - Unknown word (vite)       -- vite: 'catalog:'
+pnpm-workspace.yaml:58:11     - Unknown word (estree)     -- '@types/estree': ^1.0.8
+pnpm-workspace.yaml:66:11     - Unknown word (yauzl)      -- '@types/yauzl': ^2.10.3
+pnpm-workspace.yaml:68:5      - Unknown word (vitejs)     -- '@vitejs/plugin-vue': ^6.0.7
+pnpm-workspace.yaml:71:3      - Unknown word (ansivision) -- ansivision: ^0.2.7
+pnpm-workspace.yaml:91:3      - Unknown word (sirv)       -- sirv: ^3.0.2
+pnpm-workspace.yaml:94:3      - Unknown word (tinybench)  -- tinybench: ^6.0.1
+pnpm-workspace.yaml:96:3      - Unknown word (tinyglobby) -- tinyglobby: ^0.2.15
+pnpm-workspace.yaml:99:3      - Unknown word (tinyspy)    -- tinyspy: ^4.0.4
 test/browser/fixtures/browser-crash/vitest.config.ts:14:38     - Unknown word (crashcontent) -- context.page.goto('about:crashcontent')
 test/browser/fixtures/expect-dom/toHaveAccessibleErrorMessage.test.ts:171:20    - Unknown word (asdflkje)       -- const msg = 'asdflkje2984fguyvb bnafdsasfa
 test/browser/fixtures/expect-dom/toHaveAccessibleErrorMessage.test.ts:171:32    - Unknown word (fguyvb)         -- const msg = 'asdflkje2984fguyvb bnafdsasfa;lj'
@@ -433,7 +431,6 @@ test/browser/fixtures/locators/blog.test.tsx:16:67     - Unknown word (quas)    
 test/browser/fixtures/locators/blog.test.tsx:17:72     - Unknown word (occaecati)  -- toMatchTextContent(/occaecati excepturi/)
 test/browser/fixtures/locators/blog.test.tsx:17:82     - Unknown word (excepturi)  -- toMatchTextContent(/occaecati excepturi/)
 test/browser/fixtures/trace/exotic.test.ts:20:33     - Unknown word (highlightable) -- shadow dom is rebuilt and highlightable by mirror id', async
-test/browser/package.json:10:11     - Unknown word (safaridriver) -- "test:safaridriver": "PROVIDER=webdriverio
 test/browser/specs/errors.test.ts:88:15     - Unknown word (doesnt)     -- test('doesnt write attachment to
 test/browser/specs/update-snapshot.test.ts:18:57     - Unknown word (Sheremet)   -- // TODO 2024-12-11 Sheremet V.A. test with multiple
 test/browser/src/blog-app/blog.tsx:15:100    - Unknown word (nfugiat)        -- beatae ea dolores neque\nfugiat blanditiis voluptate

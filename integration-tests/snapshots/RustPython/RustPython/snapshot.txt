@@ -3,20 +3,19 @@ Repository: RustPython/RustPython
 Url: "https://github.com/RustPython/RustPython.git"
 Args: ["**"]
 Lines:
- CSpell: Files checked: 824, Issues found: 8275 in 102 files.
+ CSpell: Files checked: 827, Issues found: 8274 in 102 files.
  exit code: 1
 AGENTS.md:299:76    - Unknown word (zizmor)     -- change must pass a [zizmor](https://docs.zizmor
 AGENTS.md:42:45     - Unknown word (prek)       -- commit, you MUST run `prek run --all-files` (or
 AGENTS.md:44:91     - Unknown word (prek)       -- stage the fixes, re-run `prek` until it reports a
-Cargo.toml:130:62    - Unknown word (redoxer)    -- to compile/check with redoxer
-Cargo.toml:144:28    - Unknown word (nsis)       -- package.metadata.packager.nsis]
-Cargo.toml:192:62    - Unknown word (zeroize)    -- alloc", "oid", "pem", "zeroize"] }
-Cargo.toml:281:8     - Unknown word (graviola)   -- rustls-graviola = "0.3"
+Cargo.toml:129:62    - Unknown word (redoxer)    -- to compile/check with redoxer
+Cargo.toml:143:28    - Unknown word (nsis)       -- package.metadata.packager.nsis]
+Cargo.toml:191:62    - Unknown word (zeroize)    -- alloc", "oid", "pem", "zeroize"] }
+Cargo.toml:280:8     - Unknown word (graviola)   -- rustls-graviola = "0.4"
 Cargo.toml:370:21    - Unknown word (scrutinee)  -- significant_drop_in_scrutinee = "warn"
-Cargo.toml:389:1     - Unknown word (elidable)   -- elidable_lifetime_names = "warn
-Cargo.toml:427:1     - Unknown word (uninlined)  -- uninlined_format_args = "warn
-Cargo.toml:52:8      - Unknown word (graviola)   -- rustls-graviola = { workspace = true
-Cargo.toml:82:13     - Unknown word (graviola)   -- "rustls-graviola",
+Cargo.toml:392:1     - Unknown word (elidable)   -- elidable_lifetime_names = "warn
+Cargo.toml:431:1     - Unknown word (uninlined)  -- uninlined_format_args = "warn
+Cargo.toml:62:8      - Unknown word (graviola)   -- rustls-graviola = { workspace = true
 LICENSE-logo:205:34    - Unknown word (waivable)   -- under any voluntary or waivable statutory or compulsory
 README.md:105:90    - Unknown word (Embedders)  -- the RustPython binary. Embedders can use `rustpython
 README.md:126:8     - Unknown word (wapm)       -- Run by wapm

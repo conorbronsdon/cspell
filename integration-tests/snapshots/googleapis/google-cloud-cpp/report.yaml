@@ -4,8 +4,8 @@ Url: https://github.com/googleapis/google-cloud-cpp.git
 Args: '["--config=${repoConfig}/cspell.json","**/*","-e","{*.BUILD,BUILD,CHANGELOG.md,*.sh,*.cfg,*.ps1,Dockerfile.*,*.Dockerfile,*.{yaml,xml,json,cmake}}"]'
 Summary:
   files: 21314
-  filesWithIssues: 8300
-  issues: 48094
+  filesWithIssues: 8301
+  issues: 48095
   errors: 0
 Errors: []
 
@@ -409,9 +409,9 @@ issues:
   - "generator/internal/pagination_test.cc:255:49        Repated     U       PaginationAIP4233ExactlyOneRepatedStringResponse) {"
   - "generator/internal/printer_test.cc:36:33        Inigo       U       VarsDictionary vars{{\"name\", \"Inigo Montoya\"}};"
   - "generator/internal/routing.h:78:7           actools     U       * go/actools-dynamic-routing-proposal"
-  - "generator/internal/scaffold_generator_test.cc:423:38        CXXLD       U       actual, HasSubstr(\"\\t$(CXXLD) \"));"
-  - "generator/internal/scaffold_generator_test.cc:457:37        Bazelrc     U       ScaffoldGenerator, QuickstartBazelrc) {"
-  - "generator/internal/scaffold_generator.cc:1075:8         CXXLDFLAGS      U       CLIENT_CXXLDFLAGS := $$(shell pkg-config"
+  - "generator/internal/scaffold_generator_test.cc:424:38        CXXLD       U       actual, HasSubstr(\"\\t$(CXXLD) \"));"
+  - "generator/internal/scaffold_generator_test.cc:459:37        Bazelrc     U       ScaffoldGenerator, QuickstartBazelrc) {"
+  - "generator/internal/scaffold_generator.cc:1078:8         CXXLDFLAGS      U       CLIENT_CXXLDFLAGS := $$(shell pkg-config"
   - "generator/internal/service_code_generator.h:204:46      autopopulated       U       of the methods has an autopopulated `request_id`-like"
   - "generator/templates/WORKSPACE.bazel:19:21       Starlark    U       # Add the necessary Starlark functions to fetch google"
   - "google/cloud/accessapproval/doc/main.dox:3:2            mainpage    U       @mainpage Access Approval API"
@@ -508,11 +508,12 @@ issues:
   - "google/cloud/bigtable/column_family.h:154:43        Differencer     U       protobuf::util::MessageDifferencer::Equivalent(a.gc_rule"
   - "google/cloud/bigtable/doc/bigtable-samples-grpc-credentials.dox:41:33       googleusercontent       U       client_id\": \"XXXXXX.apps.googleusercontent.com\","
   - "google/cloud/bigtable/doc/bigtable-samples-grpc-credentials.dox:57:71       endl                    U       < ex.what() << std::endl;"
-  - "google/cloud/bigtable/examples/bigtable_hello_app_profile.cc:145:40         abcdefghilklmnopqrstuvwxyz      U       generator, 8, \"abcdefghilklmnopqrstuvwxyz0123456789\");"
+  - "google/cloud/bigtable/examples/bigtable_hello_app_profile.cc:146:40         abcdefghilklmnopqrstuvwxyz      U       generator, 8, \"abcdefghilklmnopqrstuvwxyz0123456789\");"
   - "google/cloud/bigtable/examples/howto_mock_data_api.cc:32:11         cbtm    U       namespace cbtm = ::google::cloud::bigtable"
   - "google/cloud/bigtable/internal/async_row_reader_test.cc:475:37      Doesnt (Doesn't)    U       AsyncRowReaderTest, ParserEofDoesntFailOnUnfinishedRowIfRowLimit"
   - "google/cloud/bigtable/internal/async_row_reader.cc:80:31        cntr    U       explicit CountFrames(int& cntr) : cntr(++cntr) {}"
-  - "google/cloud/bigtable/internal/data_connection_impl.cc:733:24       satisying       U       // sure of that, satisying the `promise<>` is deferred"
+  - "google/cloud/bigtable/internal/data_connection_impl.cc:752:24       satisying       U       // sure of that, satisying the `promise<>` is deferred"
+  - "google/cloud/bigtable/internal/data_connection_impl.h:44:49         addind      U       this option in favor of addind a member variable to"
   - "google/cloud/bigtable/internal/logging_result_set_reader.cc:35:43       unresumable     U       __func__ << \"() << (unresumable)\";"
   - "google/cloud/bigtable/internal/metrics_test.cc:1668:53      gfet    U       emplace(\"server-timing\", \"gfet4t7; dur=10.5\");"
   - "google/cloud/bigtable/internal/partial_result_set_source_test.cc:283:41         AAAAAW      U       resume_token: \"AAAAAWVyZXN1bWVfdG9rZW4=\","
@@ -527,7 +528,7 @@ issues:
   - "google/cloud/bigtable/testing/mock_async_failing_rpc_factory.h:72:74        nooo    U       PERMISSION_DENIED, \"nooo\");"
   - "google/cloud/bigtable/testing/random_names.cc:47:41         abcdefghijlkmnopqrstuvwxyz      U       generator, size, \"abcdefghijlkmnopqrstuvwxyz0123456789\");"
   - "google/cloud/bigtable/tests/mutations_integration_test.cc:120:16        decodeable (decodable)      U       // *will* be decodeable to in int64_t. I don"
-  - "google/cloud/bigtable/tests/table_admin_integration_test.cc:226:16      newfam      U       \"newfam\", GC::Intersection(GC"
+  - "google/cloud/bigtable/tests/table_admin_integration_test.cc:227:16      newfam      U       \"newfam\", GC::Intersection(GC"
   - "google/cloud/bigtable/tools/convert_acceptance_tests.py:87:13       rowkey      U       rowkey_string = base64.b64decode"
   - "google/cloud/bigtable/value_test.cc:864:14      infval      U       auto const infval = std::numeric_limits"
   - "google/cloud/bigtable/value_test.cc:865:14      nanval      U       auto const nanval = std::nan(\"NaN\");"

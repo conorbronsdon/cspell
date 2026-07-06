@@ -2563,25 +2563,25 @@ docs/_ext/djangodocs.py:178:39    - Unknown word (signode)         -- admin_node
 docs/_ext/djangodocs.py:182:5     - Unknown word (signode)         -- signode += addnodes.desc_name
 docs/_ext/djangodocs.py:194:24    - Unknown word (litblk)          -- def __init__(self, litblk_obj):
 docs/_ext/djangodocs.py:195:24    - Unknown word (litblk)          -- self.wrapped = litblk_obj
-docs/_ext/djangodocs.py:242:58    - Unknown word (docname)         -- self.builder.current_docname, node.line))
-docs/_ext/djangodocs.py:245:24    - Unknown word (doscon)          -- win_text, "doscon", warn=warner, linenos
+docs/_ext/djangodocs.py:249:58    - Unknown word (docname)         -- self.builder.current_docname, node.line))
+docs/_ext/djangodocs.py:252:24    - Unknown word (doscon)          -- win_text, "doscon", warn=warner, linenos
 docs/_ext/djangodocs.py:25:9      - Unknown word (rolename)     -- rolename="setting",
-docs/_ext/djangodocs.py:263:12    - Unknown word (doscon)          -- # The 'doscon' Pygments formatter
+docs/_ext/djangodocs.py:270:12    - Unknown word (doscon)          -- # The 'doscon' Pygments formatter
 docs/_ext/djangodocs.py:30:19     - Unknown word (ttag)         -- rolename="ttag",
 docs/_ext/djangodocs.py:30:9      - Unknown word (rolename)     -- rolename="ttag",
-docs/_ext/djangodocs.py:313:13    - Unknown word (bchanged)        -- bchanged = False
-docs/_ext/djangodocs.py:316:17    - Unknown word (modline)         -- modline = cmdline_to_win(line
-docs/_ext/djangodocs.py:317:20    - Unknown word (modline)         -- if modline is None:
-docs/_ext/djangodocs.py:320:52    - Unknown word (modline)         -- append(self.WIN_PROMPT + modline)
-docs/_ext/djangodocs.py:321:21    - Unknown word (bchanged)        -- bchanged = True
-docs/_ext/djangodocs.py:322:16    - Unknown word (bchanged)        -- if bchanged:
-docs/_ext/djangodocs.py:335:42    - Unknown word (serialno)        -- uid"] = str(env.new_serialno("console"))
-docs/_ext/djangodocs.py:343:64    - Unknown word (rawsource)       -- = super().run()[0].rawsource
-docs/_ext/djangodocs.py:350:43    - Unknown word (templatename)    -- hook(app, pagename, templatename, context, doctree):
-docs/_ext/djangodocs.py:350:66    - Unknown word (doctree)         -- templatename, context, doctree):
-docs/_ext/djangodocs.py:355:9     - Unknown word (doctree)         -- doctree, "_console_directive
+docs/_ext/djangodocs.py:320:13    - Unknown word (bchanged)        -- bchanged = False
+docs/_ext/djangodocs.py:323:17    - Unknown word (modline)         -- modline = cmdline_to_win(line
+docs/_ext/djangodocs.py:324:20    - Unknown word (modline)         -- if modline is None:
+docs/_ext/djangodocs.py:327:52    - Unknown word (modline)         -- append(self.WIN_PROMPT + modline)
+docs/_ext/djangodocs.py:328:21    - Unknown word (bchanged)        -- bchanged = True
+docs/_ext/djangodocs.py:329:16    - Unknown word (bchanged)        -- if bchanged:
+docs/_ext/djangodocs.py:342:42    - Unknown word (serialno)        -- uid"] = str(env.new_serialno("console"))
+docs/_ext/djangodocs.py:350:64    - Unknown word (rawsource)       -- = super().run()[0].rawsource
+docs/_ext/djangodocs.py:357:43    - Unknown word (templatename)    -- hook(app, pagename, templatename, context, doctree):
+docs/_ext/djangodocs.py:357:66    - Unknown word (doctree)         -- templatename, context, doctree):
 docs/_ext/djangodocs.py:35:19     - Unknown word (tfilter)      -- rolename="tfilter",
 docs/_ext/djangodocs.py:35:9      - Unknown word (rolename)     -- rolename="tfilter",
+docs/_ext/djangodocs.py:362:9     - Unknown word (doctree)         -- doctree, "_console_directive
 docs/_ext/djangodocs.py:39:24     - Unknown word (fieldlookup)  -- directivename="fieldlookup",
 docs/_ext/djangodocs.py:40:9      - Unknown word (rolename)     -- rolename="lookup",
 docs/_ext/djangodocs.py:45:19     - Unknown word (djadmin)      -- rolename="djadmin",
@@ -6274,6 +6274,8 @@ tests/middleware/tests.py:953:57    - Unknown word (WBITS)         -- gzipped_st
 tests/middleware/tests.py:96:38     - Unknown word (querystrings) -- SLASH should preserve querystrings when redirecting.
 tests/middleware_exceptions/middleware.py:19:13     - Unknown word (markcoroutinefunction) -- markcoroutinefunction(self)
 tests/middleware_exceptions/middleware.py:1:42      - Unknown word (markcoroutinefunction) -- iscoroutinefunction, markcoroutinefunction
+tests/migrations/base.py:280:9     - Unknown word (multicol)   -- multicol_index=False,
+tests/migrations/base.py:325:12    - Unknown word (multicol)   -- if multicol_index:
 tests/migrations/migrations_test_apps/conflicting_app_with_dependencies/migrations/0001_initial.py:17:14     - Unknown word (Tribble)    -- "Tribble",
 tests/migrations/migrations_test_apps/conflicting_app_with_dependencies/migrations/0002_second.py:11:33     - Unknown word (Tribble)    -- migrations.DeleteModel("Tribble"),
 tests/migrations/migrations_test_apps/migrated_app/migrations/0001_initial.py:17:14     - Unknown word (Tribble)    -- "Tribble",
@@ -6310,8 +6312,6 @@ tests/migrations/test_autodetector.py:707:10    - Unknown word (thirdapp)   -- "
 tests/migrations/test_autodetector.py:789:30    - Unknown word (Authi)      -- "verbose_name": "Authi",
 tests/migrations/test_autodetector.py:908:10    - Unknown word (thirdapp)   -- "thirdapp", "Thing", [("id", models
 tests/migrations/test_autodetector.py:924:43    - Unknown word (thirdapp)   -- models.ForeignKey("thirdapp.AuthorProxy", models
-tests/migrations/test_base.py:280:9     - Unknown word (multicol)   -- multicol_index=False,
-tests/migrations/test_base.py:325:12    - Unknown word (multicol)   -- if multicol_index:
 tests/migrations/test_commands.py:1013:38   - Unknown word (Tribble)     -- "-- Create model Tribble",
 tests/migrations/test_commands.py:102:47    - Unknown word (tribble)    -- ertTableNotExists("migrations_tribble")
 tests/migrations/test_commands.py:1142:25   - Unknown word (unrepresentable) -- def test_sqlmigrate_unrepresentable(self):

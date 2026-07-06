@@ -3,7 +3,7 @@ Repository: sveltejs/svelte
 Url: https://github.com/sveltejs/svelte.git
 Args: '["**"]'
 Summary:
-  files: 8900
+  files: 8902
   filesWithIssues: 617
   issues: 4062
   errors: 0
@@ -1694,7 +1694,7 @@ issues:
   - "packages/svelte/src/compiler/phases/3-transform/client/visitors/shared/element.js:46:67         readded     U       it isn't removed and readded on every update"
   - "packages/svelte/src/compiler/phases/3-transform/server/visitors/RegularElement.js:10:51         Optimiser       U       build_template, PromiseOptimiser } from './shared/utils"
   - "packages/svelte/src/compiler/phases/3-transform/server/visitors/RegularElement.js:39:8          optimiser       U       const optimiser = new PromiseOptimiser"
-  - "packages/svelte/src/compiler/phases/3-transform/server/visitors/shared/utils.js:311:18      optimising      U       * A utility for optimising promises in templates"
+  - "packages/svelte/src/compiler/phases/3-transform/server/visitors/shared/utils.js:313:18      optimising      U       * A utility for optimising promises in templates"
   - "packages/svelte/src/compiler/phases/3-transform/server/visitors/VariableDeclaration.js:55:45        deconflict      U       declared separately, deconflict"
   - "packages/svelte/src/compiler/phases/3-transform/utils.js:219:76         spaceand    U       text node with a single spaceand keep whitespace"
   - "packages/svelte/src/compiler/phases/patterns.js:21:43       aeiou       U       starts_with_vowel = /^[aeiou]/;"

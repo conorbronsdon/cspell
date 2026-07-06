@@ -3,7 +3,7 @@ Repository: googleapis/google-cloud-cpp
 Url: "https://github.com/googleapis/google-cloud-cpp.git"
 Args: ["--config=../../../../config/repositories/googleapis/google-cloud-cpp/cspell.json","**/*","-e","{*.BUILD,BUILD,CHANGELOG.md,*.sh,*.cfg,*.ps1,Dockerfile.*,*.Dockerfile,*.{yaml,xml,json,cmake}}"]
 Lines:
- CSpell: Files checked: 21285, skipped: 29, Issues found: 48094 in 8300 files.
+ CSpell: Files checked: 21285, skipped: 29, Issues found: 48095 in 8301 files.
  exit code: 1
 ARCHITECTURE.md:158:48    - Unknown word (googlemock) -- implementation using `googlemock`
 BUILD.bazel:151:20    - Unknown word (ctype)      -- name = "enable-ctype-cord-workaround",
@@ -405,9 +405,9 @@ generator/internal/http_annotation_parser_test.cc:244:6     - Unknown word (Pars
 generator/internal/pagination_test.cc:255:49    - Unknown word (Repated)    -- PaginationAIP4233ExactlyOneRepatedStringResponse) {
 generator/internal/printer_test.cc:36:33     - Unknown word (Inigo)      -- VarsDictionary vars{{"name", "Inigo Montoya"}};
 generator/internal/routing.h:78:7      - Unknown word (actools)    -- * go/actools-dynamic-routing-proposal
-generator/internal/scaffold_generator.cc:1075:8    - Unknown word (CXXLDFLAGS) -- CLIENT_CXXLDFLAGS := $$(shell pkg-config
-generator/internal/scaffold_generator_test.cc:423:38    - Unknown word (CXXLD)      -- actual, HasSubstr("\t$(CXXLD) "));
-generator/internal/scaffold_generator_test.cc:457:37    - Unknown word (Bazelrc)    -- ScaffoldGenerator, QuickstartBazelrc) {
+generator/internal/scaffold_generator.cc:1078:8    - Unknown word (CXXLDFLAGS) -- CLIENT_CXXLDFLAGS := $$(shell pkg-config
+generator/internal/scaffold_generator_test.cc:424:38    - Unknown word (CXXLD)      -- actual, HasSubstr("\t$(CXXLD) "));
+generator/internal/scaffold_generator_test.cc:459:37    - Unknown word (Bazelrc)    -- ScaffoldGenerator, QuickstartBazelrc) {
 generator/internal/service_code_generator.h:204:46    - Unknown word (autopopulated) -- of the methods has an autopopulated `request_id`-like
 generator/templates/WORKSPACE.bazel:19:21     - Unknown word (Starlark)   -- # Add the necessary Starlark functions to fetch google
 google/cloud/BUILD.bazel:241:5     - Unknown word (cxxopts)    -- cxxopts = ["-DGOOGLE_CLOUD_CPP
@@ -506,11 +506,12 @@ google/cloud/bigtable/benchmarks/scan_async_throughput_benchmark.cc:105:34    - 
 google/cloud/bigtable/column_family.h:154:43    - Unknown word (Differencer) -- protobuf::util::MessageDifferencer::Equivalent(a.gc_rule
 google/cloud/bigtable/doc/bigtable-samples-grpc-credentials.dox:41:33     - Unknown word (googleusercontent) -- client_id": "XXXXXX.apps.googleusercontent.com",
 google/cloud/bigtable/doc/bigtable-samples-grpc-credentials.dox:57:71     - Unknown word (endl)              -- < ex.what() << std::endl;
-google/cloud/bigtable/examples/bigtable_hello_app_profile.cc:145:40    - Unknown word (abcdefghilklmnopqrstuvwxyz) -- generator, 8, "abcdefghilklmnopqrstuvwxyz0123456789");
+google/cloud/bigtable/examples/bigtable_hello_app_profile.cc:146:40    - Unknown word (abcdefghilklmnopqrstuvwxyz) -- generator, 8, "abcdefghilklmnopqrstuvwxyz0123456789");
 google/cloud/bigtable/examples/howto_mock_data_api.cc:32:11     - Unknown word (cbtm)       -- namespace cbtm = ::google::cloud::bigtable
 google/cloud/bigtable/internal/async_row_reader.cc:80:31     - Unknown word (cntr)       -- explicit CountFrames(int& cntr) : cntr(++cntr) {}
 google/cloud/bigtable/internal/async_row_reader_test.cc:475:37    - Unknown word (Doesnt)     -- AsyncRowReaderTest, ParserEofDoesntFailOnUnfinishedRowIfRowLimit
-google/cloud/bigtable/internal/data_connection_impl.cc:733:24    - Unknown word (satisying)  -- // sure of that, satisying the `promise<>` is deferred
+google/cloud/bigtable/internal/data_connection_impl.cc:752:24    - Unknown word (satisying)  -- // sure of that, satisying the `promise<>` is deferred
+google/cloud/bigtable/internal/data_connection_impl.h:44:49     - Unknown word (addind)     -- this option in favor of addind a member variable to
 google/cloud/bigtable/internal/logging_result_set_reader.cc:35:43     - Unknown word (unresumable) -- __func__ << "() << (unresumable)";
 google/cloud/bigtable/internal/metrics_test.cc:1668:53   - Unknown word (gfet)       -- emplace("server-timing", "gfet4t7; dur=10.5");
 google/cloud/bigtable/internal/partial_result_set_source_test.cc:283:41    - Unknown word (AAAAAW)     -- resume_token: "AAAAAWVyZXN1bWVfdG9rZW4=",
@@ -525,7 +526,7 @@ google/cloud/bigtable/sql_statement_test.cc:33:27     - Unknown word (Pointwise)
 google/cloud/bigtable/testing/mock_async_failing_rpc_factory.h:72:74     - Unknown word (nooo)       -- PERMISSION_DENIED, "nooo");
 google/cloud/bigtable/testing/random_names.cc:47:41     - Unknown word (abcdefghijlkmnopqrstuvwxyz) -- generator, size, "abcdefghijlkmnopqrstuvwxyz0123456789");
 google/cloud/bigtable/tests/mutations_integration_test.cc:120:16    - Unknown word (decodeable) -- // *will* be decodeable to in int64_t. I don
-google/cloud/bigtable/tests/table_admin_integration_test.cc:226:16    - Unknown word (newfam)     -- "newfam", GC::Intersection(GC
+google/cloud/bigtable/tests/table_admin_integration_test.cc:227:16    - Unknown word (newfam)     -- "newfam", GC::Intersection(GC
 google/cloud/bigtable/tools/convert_acceptance_tests.py:87:13     - Unknown word (rowkey)     -- rowkey_string = base64.b64decode
 google/cloud/bigtable/value.cc:782:13    - Unknown word (Dedup)      -- void Value::DedupProtoMap() {
 google/cloud/bigtable/value.cc:783:31    - Unknown word (dedup)      -- bigtable::v2::Value dedup_value;

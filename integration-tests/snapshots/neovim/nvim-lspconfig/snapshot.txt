@@ -3,7 +3,7 @@ Repository: neovim/nvim-lspconfig
 Url: "https://github.com/neovim/nvim-lspconfig.git"
 Args: ["**"]
 Lines:
- CSpell: Files checked: 863, Issues found: 9264 in 769 files.
+ CSpell: Files checked: 863, Issues found: 9273 in 769 files.
  exit code: 1
 AGENTS.md:1:20      - Unknown word (lspconfig)  -- Everything in `lua/lspconfig/*` (except `util.lua
 CONTRIBUTING.md:12:81     - Unknown word (upstreamed) -- "util" code must be upstreamed to Nvim core.
@@ -46,32 +46,31 @@ doc/configs.md:105:4     - Unknown word (emmylua)      -- - [emmylua_ls](#emmylu
 doc/configs.md:10707:9   - Unknown word (rustup)          -- cmd = {"rustup", "run", "nightly",
 doc/configs.md:107:4     - Unknown word (esbonio)      -- - [esbonio](#esbonio)
 doc/configs.md:10817:6   - Unknown word (robotidy)        -- { "robotidy.toml", "pyproject.toml
-doc/configs.md:11399:6   - Unknown word (Akku)            -- { "Akku.manifest", ".git" }
-doc/configs.md:11512:7   - Unknown word (shopifyignore)   -- { ".shopifyignore", ".theme-check.yml
-doc/configs.md:11530:74  - Unknown word (mksh)            -- bash, zsh, posix, and mksh dialects.
-doc/configs.md:11594:9   - Unknown word (Verilog)         -- A SystemVerilog language server based
-doc/configs.md:11659:14  - Unknown word (shaderslang)     -- { "hlsl", "shaderslang" }
-doc/configs.md:11659:6   - Unknown word (hlsl)            -- { "hlsl", "shaderslang" }
-doc/configs.md:11663:6   - Unknown word (slangdconfig)    -- { "slangdconfig.json", ".clang-format
-doc/configs.md:11671:2   - Unknown word (Slint)           -- `Slint`'s language server
+doc/configs.md:11402:6   - Unknown word (Akku)            -- { "Akku.manifest", ".git" }
+doc/configs.md:11515:7   - Unknown word (shopifyignore)   -- { ".shopifyignore", ".theme-check.yml
+doc/configs.md:11533:74  - Unknown word (mksh)            -- bash, zsh, posix, and mksh dialects.
+doc/configs.md:11597:9   - Unknown word (Verilog)         -- A SystemVerilog language server based
+doc/configs.md:11662:14  - Unknown word (shaderslang)     -- { "hlsl", "shaderslang" }
+doc/configs.md:11662:6   - Unknown word (hlsl)            -- { "hlsl", "shaderslang" }
+doc/configs.md:11666:6   - Unknown word (slangdconfig)    -- { "slangdconfig.json", ".clang-format
+doc/configs.md:11674:2   - Unknown word (Slint)           -- `Slint`'s language server
 doc/configs.md:1183:11   - Unknown word (Foldin)        -- SymbolFoldinFromOpenBrace = false
-doc/configs.md:11871:15  - Unknown word (yourname)        -- '/Users/yourname/projects', -- Trust
+doc/configs.md:11874:15  - Unknown word (yourname)        -- '/Users/yourname/projects', -- Trust
 doc/configs.md:119:4     - Unknown word (fortls)       -- - [fortls](#fortls)
-doc/configs.md:12062:52  - Unknown word (remappings)      -- json, just create a `remappings.txt` with:
+doc/configs.md:12065:52  - Unknown word (remappings)      -- json, just create a `remappings.txt` with:
 doc/configs.md:120:4     - Unknown word (fsautocomplete) -- - [fsautocomplete](#fsautocomplete)
-doc/configs.md:12143:71  - Unknown word (Nomic)           -- language, built by the Nomic Foundation for the Ethereum
+doc/configs.md:12146:71  - Unknown word (Nomic)           -- language, built by the Nomic Foundation for the Ethereum
 doc/configs.md:122:4     - Unknown word (fstar)          -- - [fstar](#fstar)
-doc/configs.md:12369:31  - Unknown word (datapacks)       -- server for Minecraft datapacks.
-doc/configs.md:12379:31  - Unknown word (mcfunction)      -- BufNewFile,BufRead *.mcfunction set filetype=mcfunction
-doc/configs.md:12399:11  - Unknown word (mcmeta)          -- { "pack.mcmeta" }
-doc/configs.md:12426:7   - Unknown word (sqllsrc)         -- { ".sqllsrc.json" }
-doc/configs.md:12445:1   - Unknown word (Sqls)           -- Sqls can be installed via
-doc/configs.md:12594:40  - Unknown word (Starlark)       -- LSP implementation for Starlark. Installation instructions
+doc/configs.md:12372:31  - Unknown word (datapacks)       -- server for Minecraft datapacks.
+doc/configs.md:12382:31  - Unknown word (mcfunction)      -- BufNewFile,BufRead *.mcfunction set filetype=mcfunction
+doc/configs.md:12402:11  - Unknown word (mcmeta)          -- { "pack.mcmeta" }
+doc/configs.md:12429:7   - Unknown word (sqllsrc)         -- { ".sqllsrc.json" }
+doc/configs.md:12448:1   - Unknown word (Sqls)           -- Sqls can be installed via
+doc/configs.md:12597:40  - Unknown word (Starlark)       -- LSP implementation for Starlark. Installation instructions
 doc/configs.md:125:4     - Unknown word (gdshader)       -- - [gdshader_lsp](#gdshader_lsp)
-doc/configs.md:12650:11  - Unknown word (Steepfile)      -- You need `Steepfile` to make it work. Generate
-doc/configs.md:12776:31  - Unknown word (Stylua)         -- Language Server for Stylua lua formatter
+doc/configs.md:12653:11  - Unknown word (Steepfile)      -- You need `Steepfile` to make it work. Generate
+doc/configs.md:12779:31  - Unknown word (Stylua)         -- Language Server for Stylua lua formatter
 doc/configs.md:127:4     - Unknown word (ghcide)         -- - [ghcide](#ghcide)
-doc/configs.md:12857:6   - Unknown word (svelteserver)   -- { "svelteserver", "--stdio" }
 doc/configs.md:128:4     - Unknown word (ghdl)           -- - [ghdl_ls](#ghdl_ls)
 doc/configs.md:129:4     - Unknown word (ginko)          -- - [ginko_ls](#ginko_ls)
 doc/configs.md:12:4      - Unknown word (anakin)     -- - [anakin_language_server](#anakin
@@ -479,8 +478,8 @@ doc/configs.md:97:4      - Unknown word (ecsact)       -- - [ecsact](#ecsact)
 doc/configs.md:9823:59   - Unknown word (PSES)            -- NoProfile', '-Command', "c:/PSES/Start-EditorServices
 doc/configs.md:9897:6    - Unknown word (swipl)           -- { "swipl", "-g", "use_module
 doc/configs.md:99:4      - Unknown word (elixirls)     -- - [elixirls](#elixirls)
-doc/configs.txt:11845:20  - Unknown word (norl)            -- vim:tw=78:ft=help:norl:expandtab:sw=4
-doc/configs.txt:11845:25  - Unknown word (expandtab)       -- vim:tw=78:ft=help:norl:expandtab:sw=4
+doc/configs.txt:11847:20  - Unknown word (norl)            -- vim:tw=78:ft=help:norl:expandtab:sw=4
+doc/configs.txt:11847:25  - Unknown word (expandtab)       -- vim:tw=78:ft=help:norl:expandtab:sw=4
 doc/configs.txt:2053:7    - Unknown word (loglevel)   -- loglevel = "debug",
 doc/configs.txt:2207:73   - Unknown word (tsgo)       -- should use ts_ls or tsgo)
 doc/configs.txt:440:19    - Unknown word (astrojs)    -- npm install -g @astrojs/language-server
@@ -489,8 +488,8 @@ doc/configs.txt:5226:71   - Unknown word (runnin)     -- language server by runn
 doc/configs.txt:6704:1    - Unknown word (oxfmt)      -- oxfmt
 doc/configs.txt:6715:22   - Unknown word (Vite)       -- or used as a part of Vite+ through `fmt` field
 doc/configs.txt:6715:52   - Unknown word (vite)       -- through `fmt` field in `vite.config.ts`: https:/
-doc/configs.txt:9040:13   - Unknown word (nomicfoundation) -- solidity_ls_nomicfoundation
-doc/configs.txt:9815:409  - Unknown word (sugarss)         -- "scss", "stylus", "sugarss", "javascript", "javascriptre
+doc/configs.txt:9043:13   - Unknown word (nomicfoundation) -- solidity_ls_nomicfoundation
+doc/configs.txt:9817:409  - Unknown word (sugarss)         -- "scss", "stylus", "sugarss", "javascript", "javascriptre
 doc/configs.txt:984:21    - Unknown word (biomejs)    -- npm install [-g] @biomejs/biome
 doc/lspconfig.txt:241:10    - Unknown word (Nvim's)            -- All bugs Nvim's built-in client should
 doc/lspconfig.txt:71:19     - Unknown word (require'lspconfig) -- root_dir = require'lspconfig.util'.root_pattern(
@@ -545,6 +544,7 @@ lsp/rust_analyzer.lua:62:52     - Unknown word (rustlib)    -- joinpath(sysroot,
 lsp/rust_analyzer.lua:71:34     - Unknown word (RUSTUP)     -- rustup_home = os.getenv 'RUSTUP_HOME' or user_home
 lsp/sourcekit.lua:17:33     - Unknown word (xcodeproj)  -- util.root_pattern('*.xcodeproj', '*.xcworkspace')(filename
 lsp/sourcekit.lua:17:48     - Unknown word (xcworkspace) -- pattern('*.xcodeproj', '*.xcworkspace')(filename)
+lsp/svelte.lua:15:18     - Unknown word (svelteserver) -- local cmd = 'svelteserver'
 lsp/svlangserver.lua:25:53     - Unknown word (Svlangserver) -- user_command(bufnr, 'LspSvlangserverBuildIndex', function
 lsp/svlangserver.lua:37:39     - Unknown word (cword)        -- = { vim.fn.expand '<cword>' },
 lsp/termux_language_server.lua:17:15     - Unknown word (MSYS)       -- -- Arch/MSYS2
@@ -664,8 +664,8 @@ lua/lspconfig/types/lsp/bashls.lua:10:11     - Unknown word (shfmt)      -- ---I
 lua/lspconfig/types/lsp/bashls.lua:3:47      - Unknown word (Shfmt)      -- settings.bashls.BashIde.Shfmt
 lua/lspconfig/types/lsp/bashls.lua:40:14     - Unknown word (explainshell) -- ---Configure explainshell server endpoint in order
 lua/lspconfig/types/lsp/bashls.lua:60:133    - Unknown word (shellcheck)   -- external-sources (if shellcheckExternalSources is true
-lua/lspconfig/types/lsp/dartls.lua:392:52    - Unknown word (canvaskit)  -- flutter-default" | "canvaskit" | "html" | "auto"
-lua/lspconfig/types/lsp/dartls.lua:407:74    - Unknown word (direnv)     -- using tools such as direnv, asdf, mise... The command
+lua/lspconfig/types/lsp/dartls.lua:386:52    - Unknown word (canvaskit)  -- flutter-default" | "canvaskit" | "html" | "auto"
+lua/lspconfig/types/lsp/dartls.lua:401:74    - Unknown word (direnv)     -- using tools such as direnv, asdf, mise... The command
 lua/lspconfig/types/lsp/dartls.lua:567:22    - Unknown word (Pubspec)    -- --@field runPubGetOnPubspecChanges? "always" |
 lua/lspconfig/types/lsp/dartls.lua:708:71    - Unknown word (webdev)     -- between Dart Code and the webdev daemon. This is useful
 lua/lspconfig/types/lsp/dartls.lua:74:69     - Unknown word (SSHFS)      -- remote machine using SSHFS.
@@ -685,154 +685,158 @@ lua/lspconfig/types/lsp/fsautocomplete.lua:52:14     - Unknown word (Datas)     
 lua/lspconfig/types/lsp/fsautocomplete.lua:55:19     - Unknown word (attachdebugger) -- ---Appends the `--attachdebugger` argument to fsac, this
 lua/lspconfig/types/lsp/fsautocomplete.lua:55:47     - Unknown word (fsac)           -- attachdebugger` argument to fsac, this will allow you
 lua/lspconfig/types/lsp/fsautocomplete.lua:57:49     - Unknown word (typechecks)     -- SizeLimit for caching typechecks.
-lua/lspconfig/types/lsp/gopls.lua:1115:12   - Unknown word (Fprintf)        -- ---Use fmt.Fprintf(x, ...) instead of x
-lua/lspconfig/types/lsp/gopls.lua:1115:51   - Unknown word (Sprintf)        -- instead of x.Write(fmt.Sprintf(...))
+lua/lspconfig/types/lsp/gopls.lua:1117:12   - Unknown word (Fprintf)        -- ---Use fmt.Fprintf(x, ...) instead of x
+lua/lspconfig/types/lsp/gopls.lua:1117:51   - Unknown word (Sprintf)        -- instead of x.Write(fmt.Sprintf(...))
 lua/lspconfig/types/lsp/gopls.lua:11:19     - Unknown word (snakecase)  -- --- transform = "snakecase"
 lua/lspconfig/types/lsp/gopls.lua:156:148   - Unknown word (codelenses)     -- is present and with codelenses.
 lua/lspconfig/types/lsp/gopls.lua:180:45    - Unknown word (goroutines)     -- indicate whether system goroutines should be hidden from
 lua/lspconfig/types/lsp/gopls.lua:181:21    - Unknown word (Goroutines)     -- ---@field hideSystemGoroutines? boolean
-lua/lspconfig/types/lsp/gopls.lua:1851:37   - Unknown word (Staticcheck)    -- Nanosecond to signal to Staticcheck that you did mean to
+lua/lspconfig/types/lsp/gopls.lua:1855:37   - Unknown word (Staticcheck)    -- Nanosecond to signal to Staticcheck that you did mean to
 lua/lspconfig/types/lsp/gopls.lua:187:36    - Unknown word (gdbwire)        -- logOutput? "debugger" | "gdbwire" | "lldbout" | "debuglineerr
 lua/lspconfig/types/lsp/gopls.lua:187:48    - Unknown word (lldbout)        -- debugger" | "gdbwire" | "lldbout" | "debuglineerr" |
 lua/lspconfig/types/lsp/gopls.lua:187:60    - Unknown word (debuglineerr)   -- gdbwire" | "lldbout" | "debuglineerr" | "rpc" | "dap"
-lua/lspconfig/types/lsp/gopls.lua:1930:54   - Unknown word (submatches)     -- returns at most n matches/submatches. To
+lua/lspconfig/types/lsp/gopls.lua:1934:54   - Unknown word (submatches)     -- returns at most n matches/submatches. To
 lua/lspconfig/types/lsp/gopls.lua:194:82    - Unknown word (debuggee)       -- that is used by the debuggee. The debug adapter will
-lua/lspconfig/types/lsp/gopls.lua:1963:32   - Unknown word (Unmarshal)      -- pointer value passed to Unmarshal or Decode
-lua/lspconfig/types/lsp/gopls.lua:1984:27   - Unknown word (syscall)        -- UNIX-like systems, the syscall.SIGKILL and syscall
-lua/lspconfig/types/lsp/gopls.lua:1984:55   - Unknown word (SIGSTOP)        -- SIGKILL and syscall.SIGSTOP signals are
+lua/lspconfig/types/lsp/gopls.lua:1971:32   - Unknown word (Unmarshal)      -- pointer value passed to Unmarshal or Decode
+lua/lspconfig/types/lsp/gopls.lua:1997:27   - Unknown word (syscall)        -- UNIX-like systems, the syscall.SIGKILL and syscall
+lua/lspconfig/types/lsp/gopls.lua:1997:55   - Unknown word (SIGSTOP)        -- SIGKILL and syscall.SIGSTOP signals are
 lua/lspconfig/types/lsp/gopls.lua:202:19    - Unknown word (vulncheck)      -- ---(Experimental) vulncheck enables vulnerability
-lua/lspconfig/types/lsp/gopls.lua:2044:13   - Unknown word (cutset)         -- ---A string cutset contains duplicate characters
-lua/lspconfig/types/lsp/gopls.lua:2046:62   - Unknown word (cutsets)        -- TrimRight functions take cutsets, not
-lua/lspconfig/types/lsp/gopls.lua:2080:20   - Unknown word (structlayout)   -- ---You can use the structlayout tool to inspect the
-lua/lspconfig/types/lsp/gopls.lua:2111:34   - Unknown word (strconv)        -- argument in call to a strconv function
-lua/lspconfig/types/lsp/gopls.lua:2590:9    - Unknown word (Copysign)       -- ---math.Copysign function: math.Copysign
-lua/lspconfig/types/lsp/gopls.lua:2648:7    - Unknown word (Intn)           -- ---as Intn, generate random numbers
-lua/lspconfig/types/lsp/gopls.lua:2667:38   - Unknown word (GOARCH)         -- runtime.GOOS or runtime.GOARCH against impossible value
-lua/lspconfig/types/lsp/gopls.lua:2723:8    - Unknown word (finalizer)      -- ---The finalizer references the finalized
-lua/lspconfig/types/lsp/gopls.lua:2851:4    - Unknown word (logrus)         -- ---logrus. Please file an issue
+lua/lspconfig/types/lsp/gopls.lua:2063:13   - Unknown word (cutset)         -- ---A string cutset contains duplicate characters
+lua/lspconfig/types/lsp/gopls.lua:2065:62   - Unknown word (cutsets)        -- TrimRight functions take cutsets, not
+lua/lspconfig/types/lsp/gopls.lua:2099:20   - Unknown word (structlayout)   -- ---You can use the structlayout tool to inspect the
+lua/lspconfig/types/lsp/gopls.lua:2130:34   - Unknown word (strconv)        -- argument in call to a strconv function
+lua/lspconfig/types/lsp/gopls.lua:2626:9    - Unknown word (Copysign)       -- ---math.Copysign function: math.Copysign
+lua/lspconfig/types/lsp/gopls.lua:2684:7    - Unknown word (Intn)           -- ---as Intn, generate random numbers
+lua/lspconfig/types/lsp/gopls.lua:2703:38   - Unknown word (GOARCH)         -- runtime.GOOS or runtime.GOARCH against impossible value
+lua/lspconfig/types/lsp/gopls.lua:2759:8    - Unknown word (finalizer)      -- ---The finalizer references the finalized
 lua/lspconfig/types/lsp/gopls.lua:318:6     - Unknown word (runtest)        -- --- runtest = true
-lua/lspconfig/types/lsp/gopls.lua:3246:19   - Unknown word (testutil)       -- ---> "bar/testutil" // also imports "foo
-lua/lspconfig/types/lsp/gopls.lua:3335:4    - Unknown word (Milli)          -- ---Milli.
-lua/lspconfig/types/lsp/gopls.lua:3404:12   - Unknown word (fumpt)          -- --- fumpt "fmt"
-lua/lspconfig/types/lsp/gopls.lua:3500:8    - Unknown word (appendclipped)  -- ---The appendclipped analyzer suggests replacing
-lua/lspconfig/types/lsp/gopls.lua:3516:41   - Unknown word (nilness)        -- does not preserve the nilness of the base slice in
-lua/lspconfig/types/lsp/gopls.lua:3539:11   - Unknown word (asmdecl)        -- ---@field asmdecl? boolean
-lua/lspconfig/types/lsp/gopls.lua:353:41    - Unknown word (dlrow)          -- world", /*want: */"dlrow ,olleH"}
-lua/lspconfig/types/lsp/gopls.lua:353:48    - Unknown word (olle)           -- , /*want: */"dlrow ,olleH"}
-lua/lspconfig/types/lsp/gopls.lua:3567:11   - Unknown word (atomicalign)    -- ---@field atomicalign? boolean
-lua/lspconfig/types/lsp/gopls.lua:3570:8    - Unknown word (atomictypes)    -- ---The atomictypes analyzer suggests replacing
-lua/lspconfig/types/lsp/gopls.lua:3621:11   - Unknown word (buildtag)       -- ---@field buildtag? boolean
-lua/lspconfig/types/lsp/gopls.lua:3634:11   - Unknown word (cgocall)        -- ---@field cgocall? boolean
-lua/lspconfig/types/lsp/gopls.lua:3635:14   - Unknown word (unkeyed)        -- ---check for unkeyed composite literals
-lua/lspconfig/types/lsp/gopls.lua:3664:11   - Unknown word (copylocks)      -- ---@field copylocks? boolean
-lua/lspconfig/types/lsp/gopls.lua:3667:8    - Unknown word (deepequalerrors) -- ---The deepequalerrors checker looks for calls
-lua/lspconfig/types/lsp/gopls.lua:373:10    - Unknown word (Errorf)         -- --- KindErrorf/* = 3*/
-lua/lspconfig/types/lsp/gopls.lua:3745:8    - Unknown word (embedlit)        -- ---The embedlit analyzer suggests removing
-lua/lspconfig/types/lsp/gopls.lua:3772:8    - Unknown word (errorsas)        -- ---The errorsas analyzer reports calls
-lua/lspconfig/types/lsp/gopls.lua:3777:92   - Unknown word (reciever)        -- Error has a pointer reciever
+lua/lspconfig/types/lsp/gopls.lua:3241:19   - Unknown word (testutil)       -- ---> "bar/testutil" // also imports "foo
+lua/lspconfig/types/lsp/gopls.lua:3330:4    - Unknown word (Milli)          -- ---Milli.
+lua/lspconfig/types/lsp/gopls.lua:3399:12   - Unknown word (fumpt)          -- --- fumpt "fmt"
+lua/lspconfig/types/lsp/gopls.lua:3495:8    - Unknown word (appendclipped)  -- ---The appendclipped analyzer suggests replacing
+lua/lspconfig/types/lsp/gopls.lua:3511:41   - Unknown word (nilness)        -- does not preserve the nilness of the base slice in
+lua/lspconfig/types/lsp/gopls.lua:3534:11   - Unknown word (asmdecl)        -- ---@field asmdecl? boolean
+lua/lspconfig/types/lsp/gopls.lua:3562:11   - Unknown word (atomicalign)    -- ---@field atomicalign? boolean
+lua/lspconfig/types/lsp/gopls.lua:3565:8    - Unknown word (atomictypes)    -- ---The atomictypes analyzer suggests replacing
+lua/lspconfig/types/lsp/gopls.lua:3616:11   - Unknown word (buildtag)       -- ---@field buildtag? boolean
+lua/lspconfig/types/lsp/gopls.lua:3629:11   - Unknown word (cgocall)        -- ---@field cgocall? boolean
+lua/lspconfig/types/lsp/gopls.lua:3630:14   - Unknown word (unkeyed)        -- ---check for unkeyed composite literals
+lua/lspconfig/types/lsp/gopls.lua:364:58    - Unknown word (dlrow)          -- }»{"Hello, world", "dlrow ,olleH"},
+lua/lspconfig/types/lsp/gopls.lua:364:65    - Unknown word (olle)           -- Hello, world", "dlrow ,olleH"},
+lua/lspconfig/types/lsp/gopls.lua:3659:11   - Unknown word (copylocks)      -- ---@field copylocks? boolean
+lua/lspconfig/types/lsp/gopls.lua:3662:8    - Unknown word (deepequalerrors) -- ---The deepequalerrors checker looks for calls
+lua/lspconfig/types/lsp/gopls.lua:3740:8    - Unknown word (embedlit)        -- ---The embedlit analyzer suggests removing
+lua/lspconfig/types/lsp/gopls.lua:375:10    - Unknown word (Errorf)         -- --- KindErrorf« = 3»
+lua/lspconfig/types/lsp/gopls.lua:3767:8    - Unknown word (errorsas)        -- ---The errorsas analyzer reports calls
+lua/lspconfig/types/lsp/gopls.lua:3784:9    - Unknown word (myerr)           -- --- var myerr *MyErr
 lua/lspconfig/types/lsp/gopls.lua:3802:11   - Unknown word (errorsastype)    -- ---@field errorsastype? boolean
-lua/lspconfig/types/lsp/gopls.lua:3831:16   - Unknown word (fieldanalyzer)   -- ---produced by fieldanalyzer very rarely indicate
-lua/lspconfig/types/lsp/gopls.lua:3835:58   - Unknown word (fieldalignment)  -- tools/go/analysis/passes/fieldalignment/cmd/fieldalignment@latest
-lua/lspconfig/types/lsp/gopls.lua:3860:11   - Unknown word (fillreturns)     -- ---@field fillreturns? boolean
-lua/lspconfig/types/lsp/gopls.lua:3861:41   - Unknown word (Appendf)         -- fmt.Sprintf) with fmt.Appendf
-lua/lspconfig/types/lsp/gopls.lua:3863:8    - Unknown word (fmtappendf)      -- ---The fmtappendf analyzer suggests replacing
-lua/lspconfig/types/lsp/gopls.lua:3866:23   - Unknown word (Sprintln)        -- -fmt.Sprint and fmt.Sprintln.
-lua/lspconfig/types/lsp/gopls.lua:3877:8    - Unknown word (forvar)          -- ---The forvar analyzer removes unnecessary
-lua/lspconfig/types/lsp/gopls.lua:3894:11   - Unknown word (framepointer)    -- ---@field framepointer? boolean
-lua/lspconfig/types/lsp/gopls.lua:3917:11   - Unknown word (hostport)        -- ---@field hostport? boolean
-lua/lspconfig/types/lsp/gopls.lua:3937:11   - Unknown word (httpresponse)    -- ---@field httpresponse? boolean
-lua/lspconfig/types/lsp/gopls.lua:3956:11   - Unknown word (ifaceassert)     -- ---@field ifaceassert? boolean
-lua/lspconfig/types/lsp/gopls.lua:3972:11   - Unknown word (infertypeargs)   -- ---@field infertypeargs? boolean
-lua/lspconfig/types/lsp/gopls.lua:3975:24   - Unknown word (inlines)         -- The inline analyzer inlines functions and constants
-lua/lspconfig/types/lsp/gopls.lua:4017:35   - Unknown word (inlinings)       -- tylistically suboptimal, such inlinings may be disabled by specifying
-lua/lspconfig/types/lsp/gopls.lua:4024:5    - Unknown word (literalizations) -- ---"literalizations" unconditionally, again
+lua/lspconfig/types/lsp/gopls.lua:3821:11   - Unknown word (errorsastypeshadow) -- ---@field errorsastypeshadow? boolean
+lua/lspconfig/types/lsp/gopls.lua:3850:16   - Unknown word (fieldanalyzer)      -- ---produced by fieldanalyzer very rarely indicate
+lua/lspconfig/types/lsp/gopls.lua:3854:58   - Unknown word (fieldalignment)     -- tools/go/analysis/passes/fieldalignment/cmd/fieldalignment@latest
+lua/lspconfig/types/lsp/gopls.lua:3879:11   - Unknown word (fillreturns)        -- ---@field fillreturns? boolean
+lua/lspconfig/types/lsp/gopls.lua:3880:41   - Unknown word (Appendf)            -- fmt.Sprintf) with fmt.Appendf
+lua/lspconfig/types/lsp/gopls.lua:3882:8    - Unknown word (fmtappendf)         -- ---The fmtappendf analyzer suggests replacing
+lua/lspconfig/types/lsp/gopls.lua:3885:23   - Unknown word (Sprintln)           -- -fmt.Sprint and fmt.Sprintln.
+lua/lspconfig/types/lsp/gopls.lua:3896:8    - Unknown word (forvar)             -- ---The forvar analyzer removes unnecessary
+lua/lspconfig/types/lsp/gopls.lua:3913:11   - Unknown word (framepointer)       -- ---@field framepointer? boolean
+lua/lspconfig/types/lsp/gopls.lua:3936:11   - Unknown word (hostport)           -- ---@field hostport? boolean
+lua/lspconfig/types/lsp/gopls.lua:3956:11   - Unknown word (httpresponse)       -- ---@field httpresponse? boolean
+lua/lspconfig/types/lsp/gopls.lua:3975:11   - Unknown word (ifaceassert)        -- ---@field ifaceassert? boolean
+lua/lspconfig/types/lsp/gopls.lua:3991:11   - Unknown word (infertypeargs)      -- ---@field infertypeargs? boolean
+lua/lspconfig/types/lsp/gopls.lua:3994:24   - Unknown word (inlines)            -- The inline analyzer inlines functions, constants
+lua/lspconfig/types/lsp/gopls.lua:4041:35   - Unknown word (inlinings)          -- tylistically suboptimal, such inlinings may be disabled by specifying
+lua/lspconfig/types/lsp/gopls.lua:4048:5    - Unknown word (literalizations)    -- ---"literalizations" unconditionally, again
+lua/lspconfig/types/lsp/gopls.lua:4087:14   - Unknown word (newpkg)             -- --- type A = newpkg.A
 lua/lspconfig/types/lsp/gopls.lua:40:51     - Unknown word (lispcase)   -- snakecase" | "camelcase" | "lispcase" | "pascalcase" | "keep
 lua/lspconfig/types/lsp/gopls.lua:40:64     - Unknown word (pascalcase) -- camelcase" | "lispcase" | "pascalcase" | "keep"
-lua/lspconfig/types/lsp/gopls.lua:4111:47   - Unknown word (errgroup)        -- by golang.org/x/sync/errgroup.Group.
-lua/lspconfig/types/lsp/gopls.lua:4137:11   - Unknown word (loopclosure)     -- ---@field loopclosure? boolean
-lua/lspconfig/types/lsp/gopls.lua:4148:11   - Unknown word (lostcancel)      -- ---@field lostcancel? boolean
-lua/lspconfig/types/lsp/gopls.lua:4179:11   - Unknown word (maprange)        -- ---@field maprange? boolean
-lua/lspconfig/types/lsp/gopls.lua:417:65    - Unknown word (goplay)         -- through to command `goplay`
-lua/lspconfig/types/lsp/gopls.lua:4182:8    - Unknown word (mapsloop)        -- ---The mapsloop analyzer replaces loops
-lua/lspconfig/types/lsp/gopls.lua:4200:8    - Unknown word (minmax)          -- ---The minmax analyzer simplifies
-lua/lspconfig/types/lsp/gopls.lua:421:6     - Unknown word (openbrowser)    -- --- openbrowser = true,
-lua/lspconfig/types/lsp/gopls.lua:4223:41   - Unknown word (inlinable)       -- fix to turn them into inlinable wrappers around
-lua/lspconfig/types/lsp/gopls.lua:4248:11   - Unknown word (newexpr)         -- ---@field newexpr? boolean
-lua/lspconfig/types/lsp/gopls.lua:4256:11   - Unknown word (nilfunc)         -- ---@field nilfunc? boolean
-lua/lspconfig/types/lsp/gopls.lua:4339:11   - Unknown word (nonewvars)       -- ---@field nonewvars? boolean
-lua/lspconfig/types/lsp/gopls.lua:4355:11   - Unknown word (noresultvalues)  -- ---@field noresultvalues? boolean
-lua/lspconfig/types/lsp/gopls.lua:4356:37   - Unknown word (omitzero)        -- replacing omitempty with omitzero for struct fields
-lua/lspconfig/types/lsp/gopls.lua:4365:56   - Unknown word (kubebuilder)     -- rialization packages (notably kubebuilder, see
-lua/lspconfig/types/lsp/gopls.lua:4381:8    - Unknown word (plusbuild)       -- ---The plusbuild analyzer suggests a
-lua/lspconfig/types/lsp/gopls.lua:4414:8    - Unknown word (rangeint)        -- ---The rangeint analyzer suggests replacing
-lua/lspconfig/types/lsp/gopls.lua:4525:11   - Unknown word (recursiveiter)   -- ---@field recursiveiter? boolean
-lua/lspconfig/types/lsp/gopls.lua:4558:11   - Unknown word (reflecttypefor)  -- ---@field reflecttypefor? boolean
-lua/lspconfig/types/lsp/gopls.lua:4559:4    - Unknown word (scannererr)      -- ---scannererr: report failure to check
-lua/lspconfig/types/lsp/gopls.lua:4641:11   - Unknown word (sigchanyzer)     -- ---@field sigchanyzer? boolean
-lua/lspconfig/types/lsp/gopls.lua:4659:11   - Unknown word (simplifycompositelit) -- ---@field simplifycompositelit? boolean
-lua/lspconfig/types/lsp/gopls.lua:4685:11   - Unknown word (simplifyrange)        -- ---@field simplifyrange? boolean
-lua/lspconfig/types/lsp/gopls.lua:4703:11   - Unknown word (simplifyslice)        -- ---@field simplifyslice? boolean
-lua/lspconfig/types/lsp/gopls.lua:4706:8    - Unknown word (slicescontains)       -- ---The slicescontains analyzer simplifies
-lua/lspconfig/types/lsp/gopls.lua:4720:8    - Unknown word (slicesdelete)         -- ---The slicesdelete analyzer suggests replacing
-lua/lspconfig/types/lsp/gopls.lua:4737:8    - Unknown word (slicessort)           -- ---The slicessort analyzer simplifies
-lua/lspconfig/types/lsp/gopls.lua:4774:11   - Unknown word (sortslice)            -- ---@field sortslice? boolean
-lua/lspconfig/types/lsp/gopls.lua:4795:11   - Unknown word (stditerators)         -- ---@field stditerators? boolean
-lua/lspconfig/types/lsp/gopls.lua:4820:11   - Unknown word (stdmethods)           -- ---@field stdmethods? boolean
-lua/lspconfig/types/lsp/gopls.lua:4823:8    - Unknown word (stdversion)           -- ---The stdversion analyzer reports references
-lua/lspconfig/types/lsp/gopls.lua:4848:45   - Unknown word (Itoa)                 -- Otherwise, strconv.Itoa and its equivalents
-lua/lspconfig/types/lsp/gopls.lua:4854:11   - Unknown word (stringintconv)        -- ---@field stringintconv? boolean
-lua/lspconfig/types/lsp/gopls.lua:4912:13   - Unknown word (stringsbuilder)       -- ---However, stringsbuilder does not perform this
-lua/lspconfig/types/lsp/gopls.lua:4968:11   - Unknown word (stringscut)           -- ---@field stringscut? boolean
-lua/lspconfig/types/lsp/gopls.lua:4971:8    - Unknown word (stringscutprefix)     -- ---The stringscutprefix analyzer simplifies
-lua/lspconfig/types/lsp/gopls.lua:5008:8    - Unknown word (stringsseq)           -- ---The stringsseq analyzer improves the
-lua/lspconfig/types/lsp/gopls.lua:5032:11   - Unknown word (structtag)            -- ---@field structtag? boolean
-lua/lspconfig/types/lsp/gopls.lua:5035:8    - Unknown word (testingcontext)       -- ---The testingcontext analyzer simplifies
-lua/lspconfig/types/lsp/gopls.lua:5052:65   - Unknown word (Fatalf)               -- such as the Fatal, Fatalf, FailNow, and
-lua/lspconfig/types/lsp/gopls.lua:5066:11   - Unknown word (testinggoroutine)     -- ---@field testinggoroutine? boolean
-lua/lspconfig/types/lsp/gopls.lua:5082:8    - Unknown word (timeformat)           -- ---The timeformat checker looks for time
-lua/lspconfig/types/lsp/gopls.lua:5090:58   - Unknown word (unmarshal)            -- interface values to unmarshal
-lua/lspconfig/types/lsp/gopls.lua:5111:8    - Unknown word (unsafefuncs)          -- ---The unsafefuncs analyzer simplifies
-lua/lspconfig/types/lsp/gopls.lua:5129:8    - Unknown word (unsafeptr)            -- ---The unsafeptr analyzer reports likely
-lua/lspconfig/types/lsp/gopls.lua:5141:8    - Unknown word (unusedfunc)           -- ---The unusedfunc analyzer reports functions
-lua/lspconfig/types/lsp/gopls.lua:516:54    - Unknown word (subtests)       -- dynamically discovered subtests to the location of the
-lua/lspconfig/types/lsp/gopls.lua:5179:27   - Unknown word (deadcode)             -- golang.org/x/tools/cmd/deadcode tool, but it has the
-lua/lspconfig/types/lsp/gopls.lua:517:22    - Unknown word (Subtests)       -- --@field showDynamicSubtestsInEditor? boolean
-lua/lspconfig/types/lsp/gopls.lua:5194:8    - Unknown word (unusedparams)         -- ---The unusedparams analyzer checks functions
-lua/lspconfig/types/lsp/gopls.lua:5236:11   - Unknown word (unusedresult)         -- ---@field unusedresult? boolean
-lua/lspconfig/types/lsp/gopls.lua:5272:11   - Unknown word (unusedwrite)          -- ---@field unusedwrite? boolean
-lua/lspconfig/types/lsp/gopls.lua:5301:11   - Unknown word (waitgroup)            -- ---@field waitgroup? boolean
-lua/lspconfig/types/lsp/gopls.lua:5304:8    - Unknown word (waitgroupgo)          -- ---The waitgroupgo analyzer simplifies
-lua/lspconfig/types/lsp/gopls.lua:5325:8    - Unknown word (writestring)          -- ---The writestring analyzer offers to replace
-lua/lspconfig/types/lsp/gopls.lua:5402:9    - Unknown word (adonovan)             -- ---TODO(adonovan): rename this field
-lua/lspconfig/types/lsp/gopls.lua:5533:4    - Unknown word (GOPACKAGESDRIVER)     -- ---GOPACKAGESDRIVER.
-lua/lspconfig/types/lsp/gopls.lua:5547:9    - Unknown word (fsnotify)             -- --- - "fsnotify" : OS-level event notificatio
-lua/lspconfig/types/lsp/gopls.lua:568:87    - Unknown word (ldflags)        -- running tests. (e.g. ["-ldflags='-s'"]) This is propagated
-lua/lspconfig/types/lsp/gopls.lua:5709:5    - Unknown word (Staticcheck's)        -- ---[Staticcheck's website](https://staticcheck
-lua/lspconfig/types/lsp/gopls.lua:5739:8    - Unknown word (godoc)                -- ---* `"godoc.org"`
-lua/lspconfig/types/lsp/gopls.lua:5744:25   - Unknown word (GOPRIVATE)            -- Modules matching the GOPRIVATE environment variable
-lua/lspconfig/types/lsp/gopls.lua:5821:30   - Unknown word (Subpackages)          -- Experimental) renameMovesSubpackages enables Rename operations
-lua/lspconfig/types/lsp/gopls.lua:586:50    - Unknown word (covermode)      -- coverage, the value for -covermode. 'default' is the default
-lua/lspconfig/types/lsp/gopls.lua:592:28    - Unknown word (coverprofile)   -- true, runs 'go test -coverprofile' on save and shows test
-lua/lspconfig/types/lsp/gopls.lua:680:149   - Unknown word (gopls's)        -- provider. To configure gopls's formatting, see the
-lua/lspconfig/types/lsp/gopls.lua:680:235   - Unknown word (gofmt)          -- specific tool (e.g., `gofmt`, `goimports`) is selected
-lua/lspconfig/types/lsp/gopls.lua:680:244   - Unknown word (goimports)      -- tool (e.g., `gofmt`, `goimports`) is selected, the extension
-lua/lspconfig/types/lsp/gopls.lua:685:60    - Unknown word (goformat)       -- gofmt" | "goimports" | "goformat" | "gofumpt" | "custom
-lua/lspconfig/types/lsp/gopls.lua:685:73    - Unknown word (gofumpt)        -- goimports" | "goformat" | "gofumpt" | "custom"
-lua/lspconfig/types/lsp/gopls.lua:686:46    - Unknown word (gotests)        -- line flags to pass to `gotests` for generating tests
-lua/lspconfig/types/lsp/gopls.lua:692:148   - Unknown word (Gopath)         -- overrides this, if go.inferGopath is set to true.
-lua/lspconfig/types/lsp/gopls.lua:693:11    - Unknown word (gopath)         -- ---@field gopath? string
-lua/lspconfig/types/lsp/gopls.lua:695:11    - Unknown word (goroot)         -- ---@field goroot? string
-lua/lspconfig/types/lsp/gopls.lua:699:57    - Unknown word (everytime)      -- passed to `go build` everytime the code is compiled
-lua/lspconfig/types/lsp/gopls.lua:719:230   - Unknown word (Gopls)          -- server, gopls. Since Gopls incorporates the entire
-lua/lspconfig/types/lsp/gopls.lua:719:260   - Unknown word (staticcheck)    -- incorporates the entire staticcheck analyzer suite, it is
-lua/lspconfig/types/lsp/gopls.lua:720:38    - Unknown word (golint)         -- lintTool? "staticcheck" | "golint" | "golangci-lint"
-lua/lspconfig/types/lsp/gopls.lua:772:91    - Unknown word (CFLAGS)         -- the Go tools (e.g. CGO_CFLAGS) and debuggee process
+lua/lspconfig/types/lsp/gopls.lua:4151:47   - Unknown word (errgroup)           -- by golang.org/x/sync/errgroup.Group.
+lua/lspconfig/types/lsp/gopls.lua:4177:11   - Unknown word (loopclosure)        -- ---@field loopclosure? boolean
+lua/lspconfig/types/lsp/gopls.lua:4188:11   - Unknown word (lostcancel)         -- ---@field lostcancel? boolean
+lua/lspconfig/types/lsp/gopls.lua:419:65    - Unknown word (goplay)         -- through to command `goplay`
+lua/lspconfig/types/lsp/gopls.lua:4219:11   - Unknown word (maprange)           -- ---@field maprange? boolean
+lua/lspconfig/types/lsp/gopls.lua:4222:8    - Unknown word (mapsloop)           -- ---The mapsloop analyzer replaces loops
+lua/lspconfig/types/lsp/gopls.lua:423:6     - Unknown word (openbrowser)    -- --- openbrowser = true,
+lua/lspconfig/types/lsp/gopls.lua:4240:8    - Unknown word (minmax)             -- ---The minmax analyzer simplifies
+lua/lspconfig/types/lsp/gopls.lua:4263:41   - Unknown word (inlinable)          -- fix to turn them into inlinable wrappers around
+lua/lspconfig/types/lsp/gopls.lua:4288:11   - Unknown word (newexpr)            -- ---@field newexpr? boolean
+lua/lspconfig/types/lsp/gopls.lua:4296:11   - Unknown word (nilfunc)            -- ---@field nilfunc? boolean
+lua/lspconfig/types/lsp/gopls.lua:4379:11   - Unknown word (nonewvars)          -- ---@field nonewvars? boolean
+lua/lspconfig/types/lsp/gopls.lua:4395:11   - Unknown word (noresultvalues)     -- ---@field noresultvalues? boolean
+lua/lspconfig/types/lsp/gopls.lua:4396:37   - Unknown word (omitzero)           -- replacing omitempty with omitzero for struct fields
+lua/lspconfig/types/lsp/gopls.lua:4405:56   - Unknown word (kubebuilder)        -- rialization packages (notably kubebuilder, see
+lua/lspconfig/types/lsp/gopls.lua:4421:8    - Unknown word (plusbuild)          -- ---The plusbuild analyzer suggests a
+lua/lspconfig/types/lsp/gopls.lua:4454:8    - Unknown word (rangeint)           -- ---The rangeint analyzer suggests replacing
+lua/lspconfig/types/lsp/gopls.lua:4565:11   - Unknown word (recursiveiter)      -- ---@field recursiveiter? boolean
+lua/lspconfig/types/lsp/gopls.lua:4598:11   - Unknown word (reflecttypefor)     -- ---@field reflecttypefor? boolean
+lua/lspconfig/types/lsp/gopls.lua:4599:4    - Unknown word (scannererr)         -- ---scannererr: report failure to check
+lua/lspconfig/types/lsp/gopls.lua:4681:11   - Unknown word (sigchanyzer)        -- ---@field sigchanyzer? boolean
+lua/lspconfig/types/lsp/gopls.lua:4699:11   - Unknown word (simplifycompositelit) -- ---@field simplifycompositelit? boolean
+lua/lspconfig/types/lsp/gopls.lua:4725:11   - Unknown word (simplifyrange)        -- ---@field simplifyrange? boolean
+lua/lspconfig/types/lsp/gopls.lua:4743:11   - Unknown word (simplifyslice)        -- ---@field simplifyslice? boolean
+lua/lspconfig/types/lsp/gopls.lua:4746:8    - Unknown word (slicesbackward)       -- ---The slicesbackward analyzer suggests replacing
+lua/lspconfig/types/lsp/gopls.lua:4770:8    - Unknown word (slicescontains)       -- ---The slicescontains analyzer simplifies
+lua/lspconfig/types/lsp/gopls.lua:4784:8    - Unknown word (slicesdelete)         -- ---The slicesdelete analyzer suggests replacing
+lua/lspconfig/types/lsp/gopls.lua:4801:8    - Unknown word (slicessort)           -- ---The slicessort analyzer simplifies
+lua/lspconfig/types/lsp/gopls.lua:4838:11   - Unknown word (sortslice)            -- ---@field sortslice? boolean
+lua/lspconfig/types/lsp/gopls.lua:4839:4    - Unknown word (sqlrowserr)           -- ---sqlrowserr: report failure to check
+lua/lspconfig/types/lsp/gopls.lua:4901:11   - Unknown word (stditerators)         -- ---@field stditerators? boolean
+lua/lspconfig/types/lsp/gopls.lua:4926:11   - Unknown word (stdmethods)           -- ---@field stdmethods? boolean
+lua/lspconfig/types/lsp/gopls.lua:4929:8    - Unknown word (stdversion)           -- ---The stdversion analyzer reports references
+lua/lspconfig/types/lsp/gopls.lua:4954:45   - Unknown word (Itoa)                 -- Otherwise, strconv.Itoa and its equivalents
+lua/lspconfig/types/lsp/gopls.lua:4960:11   - Unknown word (stringintconv)        -- ---@field stringintconv? boolean
+lua/lspconfig/types/lsp/gopls.lua:5018:13   - Unknown word (stringsbuilder)       -- ---However, stringsbuilder does not perform this
+lua/lspconfig/types/lsp/gopls.lua:5074:11   - Unknown word (stringscut)           -- ---@field stringscut? boolean
+lua/lspconfig/types/lsp/gopls.lua:5077:8    - Unknown word (stringscutprefix)     -- ---The stringscutprefix analyzer simplifies
+lua/lspconfig/types/lsp/gopls.lua:5114:8    - Unknown word (stringsseq)           -- ---The stringsseq analyzer improves the
+lua/lspconfig/types/lsp/gopls.lua:5138:11   - Unknown word (structtag)            -- ---@field structtag? boolean
+lua/lspconfig/types/lsp/gopls.lua:5141:8    - Unknown word (testingcontext)       -- ---The testingcontext analyzer simplifies
+lua/lspconfig/types/lsp/gopls.lua:5158:65   - Unknown word (Fatalf)               -- such as the Fatal, Fatalf, FailNow, and
+lua/lspconfig/types/lsp/gopls.lua:5172:11   - Unknown word (testinggoroutine)     -- ---@field testinggoroutine? boolean
+lua/lspconfig/types/lsp/gopls.lua:5188:8    - Unknown word (timeformat)           -- ---The timeformat checker looks for time
+lua/lspconfig/types/lsp/gopls.lua:518:54    - Unknown word (subtests)       -- dynamically discovered subtests to the location of the
+lua/lspconfig/types/lsp/gopls.lua:5196:58   - Unknown word (unmarshal)            -- interface values to unmarshal
+lua/lspconfig/types/lsp/gopls.lua:519:22    - Unknown word (Subtests)       -- --@field showDynamicSubtestsInEditor? boolean
+lua/lspconfig/types/lsp/gopls.lua:5217:8    - Unknown word (unsafefuncs)          -- ---The unsafefuncs analyzer simplifies
+lua/lspconfig/types/lsp/gopls.lua:5235:8    - Unknown word (unsafeptr)            -- ---The unsafeptr analyzer reports likely
+lua/lspconfig/types/lsp/gopls.lua:5247:8    - Unknown word (unusedfunc)           -- ---The unusedfunc analyzer reports functions
+lua/lspconfig/types/lsp/gopls.lua:5285:27   - Unknown word (deadcode)             -- golang.org/x/tools/cmd/deadcode tool, but it has the
+lua/lspconfig/types/lsp/gopls.lua:5300:8    - Unknown word (unusedparams)         -- ---The unusedparams analyzer checks functions
+lua/lspconfig/types/lsp/gopls.lua:5342:11   - Unknown word (unusedresult)         -- ---@field unusedresult? boolean
+lua/lspconfig/types/lsp/gopls.lua:5378:11   - Unknown word (unusedwrite)          -- ---@field unusedwrite? boolean
+lua/lspconfig/types/lsp/gopls.lua:5407:11   - Unknown word (waitgroup)            -- ---@field waitgroup? boolean
+lua/lspconfig/types/lsp/gopls.lua:5410:8    - Unknown word (waitgroupgo)          -- ---The waitgroupgo analyzer simplifies
+lua/lspconfig/types/lsp/gopls.lua:5431:8    - Unknown word (writestring)          -- ---The writestring analyzer offers to replace
+lua/lspconfig/types/lsp/gopls.lua:5508:9    - Unknown word (adonovan)             -- ---TODO(adonovan): rename this field
+lua/lspconfig/types/lsp/gopls.lua:5639:4    - Unknown word (GOPACKAGESDRIVER)     -- ---GOPACKAGESDRIVER.
+lua/lspconfig/types/lsp/gopls.lua:5653:9    - Unknown word (fsnotify)             -- --- - "fsnotify" : OS-level event notificatio
+lua/lspconfig/types/lsp/gopls.lua:570:87    - Unknown word (ldflags)        -- running tests. (e.g. ["-ldflags='-s'"]) This is propagated
+lua/lspconfig/types/lsp/gopls.lua:5815:5    - Unknown word (Staticcheck's)        -- ---[Staticcheck's website](https://staticcheck
+lua/lspconfig/types/lsp/gopls.lua:5845:8    - Unknown word (godoc)                -- ---* `"godoc.org"`
+lua/lspconfig/types/lsp/gopls.lua:5850:25   - Unknown word (GOPRIVATE)            -- Modules matching the GOPRIVATE environment variable
+lua/lspconfig/types/lsp/gopls.lua:5865:56   - Unknown word (codeactions)          -- producing Move Type codeactions. The implementation
+lua/lspconfig/types/lsp/gopls.lua:588:50    - Unknown word (covermode)      -- coverage, the value for -covermode. 'default' is the default
+lua/lspconfig/types/lsp/gopls.lua:5931:30   - Unknown word (Subpackages)          -- Experimental) renameMovesSubpackages enables Rename operations
+lua/lspconfig/types/lsp/gopls.lua:594:28    - Unknown word (coverprofile)   -- true, runs 'go test -coverprofile' on save and shows test
+lua/lspconfig/types/lsp/gopls.lua:682:149   - Unknown word (gopls's)        -- provider. To configure gopls's formatting, see the
+lua/lspconfig/types/lsp/gopls.lua:682:235   - Unknown word (gofmt)          -- specific tool (e.g., `gofmt`, `goimports`) is selected
+lua/lspconfig/types/lsp/gopls.lua:682:244   - Unknown word (goimports)      -- tool (e.g., `gofmt`, `goimports`) is selected, the extension
+lua/lspconfig/types/lsp/gopls.lua:687:60    - Unknown word (goformat)       -- gofmt" | "goimports" | "goformat" | "gofumpt" | "custom
+lua/lspconfig/types/lsp/gopls.lua:687:73    - Unknown word (gofumpt)        -- goimports" | "goformat" | "gofumpt" | "custom"
+lua/lspconfig/types/lsp/gopls.lua:688:46    - Unknown word (gotests)        -- line flags to pass to `gotests` for generating tests
+lua/lspconfig/types/lsp/gopls.lua:694:148   - Unknown word (Gopath)         -- overrides this, if go.inferGopath is set to true.
+lua/lspconfig/types/lsp/gopls.lua:695:11    - Unknown word (gopath)         -- ---@field gopath? string
+lua/lspconfig/types/lsp/gopls.lua:697:11    - Unknown word (goroot)         -- ---@field goroot? string
+lua/lspconfig/types/lsp/gopls.lua:701:57    - Unknown word (everytime)      -- passed to `go build` everytime the code is compiled
+lua/lspconfig/types/lsp/gopls.lua:721:230   - Unknown word (Gopls)          -- server, gopls. Since Gopls incorporates the entire
+lua/lspconfig/types/lsp/gopls.lua:721:260   - Unknown word (staticcheck)    -- incorporates the entire staticcheck analyzer suite, it is
+lua/lspconfig/types/lsp/gopls.lua:722:38    - Unknown word (golint)         -- lintTool? "staticcheck" | "golint" | "golangci-lint"
+lua/lspconfig/types/lsp/gopls.lua:774:91    - Unknown word (CFLAGS)         -- the Go tools (e.g. CGO_CFLAGS) and debuggee process
 lua/lspconfig/types/lsp/gopls.lua:78:28     - Unknown word (blockblue)  -- coveredGutterStyle = "blockblue",
 lua/lspconfig/types/lsp/gopls.lua:7:22      - Unknown word (omitempty)  -- -- options = "json=omitempty",
-lua/lspconfig/types/lsp/gopls.lua:816:46    - Unknown word (Codelenses)     -- settings.gopls.Gopls.UiCodelenses
+lua/lspconfig/types/lsp/gopls.lua:818:46    - Unknown word (Codelenses)     -- settings.gopls.Gopls.UiCodelenses
 lua/lspconfig/types/lsp/gopls.lua:82:30     - Unknown word (slashyellow) -- uncoveredGutterStyle = "slashyellow",
-lua/lspconfig/types/lsp/gopls.lua:846:10    - Unknown word (govulncheck)    -- ---`"run_govulncheck"`: Run govulncheck
-lua/lspconfig/types/lsp/gopls.lua:849:26    - Unknown word (Govulncheck)    -- with a command to run Govulncheck asynchronously.
+lua/lspconfig/types/lsp/gopls.lua:848:10    - Unknown word (govulncheck)    -- ---`"run_govulncheck"`: Run govulncheck
+lua/lspconfig/types/lsp/gopls.lua:851:26    - Unknown word (Govulncheck)    -- with a command to run Govulncheck asynchronously.
 lua/lspconfig/types/lsp/gopls.lua:90:103    - Unknown word (slashgreen)  -- blockyellow" | "slashred" | "slashgreen" | "slashblue" | "slashyellow
 lua/lspconfig/types/lsp/gopls.lua:90:118    - Unknown word (slashblue)   -- slashred" | "slashgreen" | "slashblue" | "slashyellow" |
 lua/lspconfig/types/lsp/gopls.lua:90:148    - Unknown word (verticalred) -- | "slashyellow" | "verticalred" | "verticalgreen"
@@ -843,7 +847,7 @@ lua/lspconfig/types/lsp/gopls.lua:90:46     - Unknown word (blockred)    -- edGu
 lua/lspconfig/types/lsp/gopls.lua:90:59     - Unknown word (blockgreen)  -- blockblue" | "blockred" | "blockgreen" | "blockyellow" |
 lua/lspconfig/types/lsp/gopls.lua:90:74     - Unknown word (blockyellow) -- blockred" | "blockgreen" | "blockyellow" | "slashred" | "slashgreen
 lua/lspconfig/types/lsp/gopls.lua:90:90     - Unknown word (slashred)    -- | "blockyellow" | "slashred" | "slashgreen" | "slashblue
-lua/lspconfig/types/lsp/gopls.lua:938:7     - Unknown word (unusedvariable) -- --- "unusedvariable": true  // Enable the
+lua/lspconfig/types/lsp/gopls.lua:940:7     - Unknown word (unusedvariable) -- --- "unusedvariable": true  // Enable the
 lua/lspconfig/types/lsp/grammarly.lua:100:10    - Unknown word (LGBTQIA)    -- ---Flags LGBTQIA+-related terms that
 lua/lspconfig/types/lsp/grammarly.lua:219:33    - Unknown word (Lgbtqia)    -- PossiblyBiasedLanguageLgbtqiaRelated? true | false
 lua/lspconfig/types/lsp/grammarly.lua:229:22    - Unknown word (Fillerwords) -- --@field ReadabilityFillerwords? true | false
@@ -1034,28 +1038,28 @@ lua/lspconfig/types/lsp/ruff.lua:31:35     - Unknown word (mypy)        -- path 
 lua/lspconfig/types/lsp/ruff.lua:39:60     - Unknown word (globset)     -- syntax, refer to the [`globset` documentation](https
 lua/lspconfig/types/lsp/ruff.lua:6:21      - Unknown word (confusables) -- ---@field ["allowed-confusables"]? string[]
 lua/lspconfig/types/lsp/ruff_lsp.lua:3:63      - Unknown word (noqa)       -- to disable rules via `noqa` suppression comments
-lua/lspconfig/types/lsp/rust_analyzer.lua:1012:70   - Unknown word (Reborrow)    -- RustAnalyzer.InlayHints.ReborrowHints
+lua/lspconfig/types/lsp/rust_analyzer.lua:1016:70   - Unknown word (Reborrow)    -- RustAnalyzer.InlayHints.ReborrowHints
 lua/lspconfig/types/lsp/rust_analyzer.lua:10:11     - Unknown word (borrowcheck) -- ---@field borrowcheck? boolean
 lua/lspconfig/types/lsp/rust_analyzer.lua:113:11    - Unknown word (autoreload)  -- ---@field autoreload? boolean
 lua/lspconfig/types/lsp/rust_analyzer.lua:122:37    - Unknown word (miri)        -- debug_assertions", "miri" }
 lua/lspconfig/types/lsp/rust_analyzer.lua:124:11    - Unknown word (cfgs)        -- ---@field cfgs? string[]
-lua/lspconfig/types/lsp/rust_analyzer.lua:1300:69   - Unknown word (Doctest)     -- RustAnalyzer.Runnables.Doctest
-lua/lspconfig/types/lsp/rust_analyzer.lua:1362:39   - Unknown word (libtest)     -- built-in test harness (“libtest”)](https://doc.rust
-lua/lspconfig/types/lsp/rust_analyzer.lua:1365:19   - Unknown word (nocapture)   -- ---default = { "--nocapture" }
-lua/lspconfig/types/lsp/rust_analyzer.lua:1684:7    - Unknown word (norun)       -- ---```norun
-lua/lspconfig/types/lsp/rust_analyzer.lua:1689:9    - Unknown word (Buildfile)   -- --- Buildfile(AbsPathBuf),
-lua/lspconfig/types/lsp/rust_analyzer.lua:1708:34   - Unknown word (buildfile)   -- project develop-json '{ "buildfile": "myproject/BUCK"
-lua/lspconfig/types/lsp/rust_analyzer.lua:352:70    - Unknown word (Autoself)    -- RustAnalyzer.Completion.Autoself
-lua/lspconfig/types/lsp/rust_analyzer.lua:401:19    - Unknown word (pinbox)      -- --- postfix = "pinbox",
-lua/lspconfig/types/lsp/rust_analyzer.lua:464:11    - Unknown word (autoself)    -- ---@field autoself? _.lspconfig.settings
-lua/lspconfig/types/lsp/rust_analyzer.lua:497:113   - Unknown word (webfreak)    -- vscode.cpptools" | "webfreak.debug"
-lua/lspconfig/types/lsp/rust_analyzer.lua:497:53    - Unknown word (lldb)        -- llvm-vs-code-extensions.lldb-dap" | "vadimcn.vscode
-lua/lspconfig/types/lsp/rust_analyzer.lua:497:66    - Unknown word (vadimcn)     -- extensions.lldb-dap" | "vadimcn.vscode-lldb" | "ms-vscode
-lua/lspconfig/types/lsp/rust_analyzer.lua:508:31    - Unknown word (USERPROFILE) -- rustc/<id>"] = "${env:USERPROFILE}/.rustup/toolchains
-lua/lspconfig/types/lsp/rust_analyzer.lua:920:41    - Unknown word (fieldless)   -- always" | "never" | "fieldless"
-lua/lspconfig/types/lsp/rust_analyzer.lua:923:12    - Unknown word (reborrows)   -- ---Disable reborrows in expression adjustments
-lua/lspconfig/types/lsp/rust_analyzer.lua:925:4     - Unknown word (Reborrows)   -- ---Reborrows are a pair of a builtin
-lua/lspconfig/types/lsp/rust_analyzer.lua:938:41    - Unknown word (reborrow)    -- always" | "never" | "reborrow"
+lua/lspconfig/types/lsp/rust_analyzer.lua:1304:69   - Unknown word (Doctest)     -- RustAnalyzer.Runnables.Doctest
+lua/lspconfig/types/lsp/rust_analyzer.lua:1366:39   - Unknown word (libtest)     -- built-in test harness (“libtest”)](https://doc.rust
+lua/lspconfig/types/lsp/rust_analyzer.lua:1369:19   - Unknown word (nocapture)   -- ---default = { "--nocapture" }
+lua/lspconfig/types/lsp/rust_analyzer.lua:1688:7    - Unknown word (norun)       -- ---```norun
+lua/lspconfig/types/lsp/rust_analyzer.lua:1693:9    - Unknown word (Buildfile)   -- --- Buildfile(AbsPathBuf),
+lua/lspconfig/types/lsp/rust_analyzer.lua:1712:34   - Unknown word (buildfile)   -- project develop-json '{ "buildfile": "myproject/BUCK"
+lua/lspconfig/types/lsp/rust_analyzer.lua:356:70    - Unknown word (Autoself)    -- RustAnalyzer.Completion.Autoself
+lua/lspconfig/types/lsp/rust_analyzer.lua:405:19    - Unknown word (pinbox)      -- --- postfix = "pinbox",
+lua/lspconfig/types/lsp/rust_analyzer.lua:468:11    - Unknown word (autoself)    -- ---@field autoself? _.lspconfig.settings
+lua/lspconfig/types/lsp/rust_analyzer.lua:501:113   - Unknown word (webfreak)    -- vscode.cpptools" | "webfreak.debug"
+lua/lspconfig/types/lsp/rust_analyzer.lua:501:53    - Unknown word (lldb)        -- llvm-vs-code-extensions.lldb-dap" | "vadimcn.vscode
+lua/lspconfig/types/lsp/rust_analyzer.lua:501:66    - Unknown word (vadimcn)     -- extensions.lldb-dap" | "vadimcn.vscode-lldb" | "ms-vscode
+lua/lspconfig/types/lsp/rust_analyzer.lua:512:31    - Unknown word (USERPROFILE) -- rustc/<id>"] = "${env:USERPROFILE}/.rustup/toolchains
+lua/lspconfig/types/lsp/rust_analyzer.lua:924:41    - Unknown word (fieldless)   -- always" | "never" | "fieldless"
+lua/lspconfig/types/lsp/rust_analyzer.lua:927:12    - Unknown word (reborrows)   -- ---Disable reborrows in expression adjustments
+lua/lspconfig/types/lsp/rust_analyzer.lua:929:4     - Unknown word (Reborrows)   -- ---Reborrows are a pair of a builtin
+lua/lspconfig/types/lsp/rust_analyzer.lua:942:41    - Unknown word (reborrow)    -- always" | "never" | "reborrow"
 lua/lspconfig/types/lsp/rust_analyzer.lua:98:14     - Unknown word (Rustc)       -- ---@field useRustcWrapper? boolean
 lua/lspconfig/types/lsp/solargraph.lua:11:43     - Unknown word (Solargraph) -- settings.solargraph.Solargraph.ExternalServer
 lua/lspconfig/types/lsp/solidity_ls.lua:106:4     - Unknown word (Solium)             -- ---Solium linting validation rules
@@ -1068,14 +1072,14 @@ lua/lspconfig/types/lsp/solidity_ls.lua:58:259    - Unknown word (dappfile)     
 lua/lspconfig/types/lsp/solidity_ls.lua:64:41     - Unknown word (solcjs)             -- package to find the solcjs compiler
 lua/lspconfig/types/lsp/solidity_ls.lua:82:4      - Unknown word (Remappings)         -- ---Remappings to resolve contracts
 lua/lspconfig/types/lsp/sorbet.lua:39:71     - Unknown word (crashy)     -- IDE features (warning: crashy, for developers only
-lua/lspconfig/types/lsp/sourcekit.lua:151:20    - Unknown word (sourckit)   -- ---When opening a .sourckit-lsp/config.json configuration
-lua/lspconfig/types/lsp/sourcekit.lua:167:39    - Unknown word (Swiftc)     -- diagnosticsCollection? "onlySwiftc" | "onlySourceKit"
-lua/lspconfig/types/lsp/sourcekit.lua:168:137   - Unknown word (swiftc)     -- option to pass to `swiftc` when running `swift
-lua/lspconfig/types/lsp/sourcekit.lua:176:12    - Unknown word (sandboxing) -- ---Disable sandboxing when running SwiftPM
-lua/lspconfig/types/lsp/sourcekit.lua:179:18    - Unknown word (Sandox)     -- ---@field disableSandox? boolean
-lua/lspconfig/types/lsp/sourcekit.lua:204:96    - Unknown word (Subfolders) -- Packages. The `swift.searchSubfoldersForPackages` must be
-lua/lspconfig/types/lsp/sourcekit.lua:3:42      - Unknown word (Sourcekit)  -- lspconfig.settings.sourcekit.SourcekitLsp.InlayHints
-lua/lspconfig/types/lsp/sourcekit.lua:45:52     - Unknown word (LLDB)       -- | "lldb-dap" | "CodeLLDB"
+lua/lspconfig/types/lsp/sourcekit.lua:142:20    - Unknown word (sourckit)   -- ---When opening a .sourckit-lsp/config.json configuration
+lua/lspconfig/types/lsp/sourcekit.lua:158:39    - Unknown word (Swiftc)     -- diagnosticsCollection? "onlySwiftc" | "onlySourceKit"
+lua/lspconfig/types/lsp/sourcekit.lua:159:137   - Unknown word (swiftc)     -- option to pass to `swiftc` when running `swift
+lua/lspconfig/types/lsp/sourcekit.lua:167:12    - Unknown word (sandboxing) -- ---Disable sandboxing when running SwiftPM
+lua/lspconfig/types/lsp/sourcekit.lua:170:18    - Unknown word (Sandox)     -- ---@field disableSandox? boolean
+lua/lspconfig/types/lsp/sourcekit.lua:195:96    - Unknown word (Subfolders) -- Packages. The `swift.searchSubfoldersForPackages` must be
+lua/lspconfig/types/lsp/sourcekit.lua:36:52     - Unknown word (LLDB)       -- | "lldb-dap" | "CodeLLDB"
+lua/lspconfig/types/lsp/sourcekit.lua:3:42      - Unknown word (Sourcekit)  -- lspconfig.settings.sourcekit.SourcekitLsp.Trace
 lua/lspconfig/types/lsp/spectral.lua:27:50     - Unknown word (minimatch)  -- g., `**/*.yaml`) in minimatch glob format which should
 lua/lspconfig/types/lsp/stylelint_lsp.lua:76:95     - Unknown word (stylelintignore) -- override automatic `.stylelintignore` detection.
 lua/lspconfig/types/lsp/stylelint_lsp.lua:96:17     - Unknown word (Descriptionless) -- ---@field reportDescriptionlessDisables? boolean

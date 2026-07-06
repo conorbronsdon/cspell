@@ -44,8 +44,8 @@ docs/src/_plugins/pre-wrapper.js:14:35     - Unknown word (labelledby) -- class=
 docs/src/about/index.md:5:87      - Unknown word (Zakas)      -- created by Nicholas C. Zakas in June 2013. Code
 docs/src/assets/js/components-index.js:17:11     - Unknown word (toggleindex) -- function toggleindex(e) {
 docs/src/assets/js/css-vars-ponyfill@2.js:5:23      - Unknown word (Hildenbiddle) -- (c) 2018-2019 John Hildenbiddle <http://hildenbiddle
-docs/src/assets/js/css-vars-ponyfill@2.js:617:40    - Unknown word (CSSVARSPONYFILL) -- e.comment.indexOf("__CSSVARSPONYFILL")
-docs/src/assets/js/css-vars-ponyfill@2.js:903:24    - Unknown word (cssvars)         -- "data-cssvars",
+docs/src/assets/js/css-vars-ponyfill@2.js:614:40    - Unknown word (CSSVARSPONYFILL) -- e.comment.indexOf("__CSSVARSPONYFILL")
+docs/src/assets/js/css-vars-ponyfill@2.js:900:24    - Unknown word (cssvars)         -- "data-cssvars",
 docs/src/assets/js/main.js:104:42    - Unknown word (togglenav)  -- addEventListener("click", togglenav, false);
 docs/src/assets/js/main.js:235:4     - Unknown word (setupindex) -- setupindexToggles(indexToggles
 docs/src/assets/js/main.js:274:8     - Unknown word (thepanel)   -- var thepanel = toggleButton.nextElementSib
@@ -179,7 +179,7 @@ docs/src/use/command-line-interface.md:318:68    - Unknown word (levn)       -- 
 docs/src/use/command-line-interface.md:567:21    - Unknown word (customformat) -- args: ["-f", "./customformat.js", "file.js"]
 docs/src/use/configure/configuration-files.md:73:152    - Unknown word (commonmark) -- nguageName"`, e.g. `"markdown/commonmark"`. (default: `"js/js
 docs/src/use/configure/debug.md:30:44     - Unknown word (nzakas)     -- config from C:\Users\nzakas\projects\eslint\eslint
-docs/src/use/configure/ignore.md:95:165    - Unknown word (mylibrary)  -- unignores `node_modules/mylibrary`:
+docs/src/use/configure/ignore.md:93:165    - Unknown word (mylibrary)  -- unignores `node_modules/mylibrary`:
 docs/src/use/configure/migration-guide.md:147:31    - Unknown word (someplugin) -- modules/eslint-plugin-someplugin/index.js
 docs/src/use/core-concepts/glossary.md:79:17     - Unknown word (estools)    -- See [github.com/estools/esquery](https://github
 docs/src/use/getting-started.md:48:13     - Unknown word (yourfile)   -- args: ["yourfile.js"]
@@ -258,7 +258,7 @@ lib/rules/no-useless-escape.js:36:17     - Unknown word (CHARCLASS)  -- const RE
 lib/rules/no-useless-escape.js:45:13     - Unknown word (CLASSSET)   -- const REGEX_CLASSSET_CHARACTER_ESCAPES =
 lib/rules/space-unary-ops.js:167:22    - Unknown word (Doesnt)     -- function verifyWordDoesntHaveSpaces(
 lib/rules/space-unary-ops.js:303:26    - Unknown word (Dont)       -- function verifyNonWordsDontHaveSpaces(node, firstToken
-lib/rules/use-isnan.js:142:13    - Unknown word (Suggestable) -- const isSuggestable =
+lib/rules/use-isnan.js:150:13    - Unknown word (Suggestable) -- const isSuggestable =
 lib/rules/utils/ast-utils.js:440:34    - Unknown word (samely)     -- a.b` and `a?.b` are samely.
 lib/services/processor-service.js:87:5      - Unknown word (Postprocesses) -- * Postprocesses the given messages synchronou
 lib/shared/text-table.js:36:8      - Unknown word (hsep)       -- const hsep = "  ";
@@ -360,15 +360,15 @@ tests/lib/rules/no-else-return.js:239:68    - Unknown word (nqaz)       -- bar \
 tests/lib/rules/no-eval.js:66:22     - Unknown word (noneval)    -- code: "globalThis.noneval('foo')",
 tests/lib/rules/no-implied-eval.js:367:16    - Unknown word (wibble)     -- execScript('wibble');
 tests/lib/rules/no-inline-comments.js:128:22    - Unknown word (otherthing) -- ignorePattern: "otherthing",
-tests/lib/rules/no-invalid-regexp.js:70:29     - Unknown word (Nandinagari) -- RegExp('\\\\p{Script=Nandinagari}', 'u');",
-tests/lib/rules/no-invalid-regexp.js:74:29     - Unknown word (Cpmn)        -- RegExp('\\\\p{Script=Cpmn}', 'u')",
-tests/lib/rules/no-invalid-regexp.js:75:29     - Unknown word (Cypro)       -- RegExp('\\\\p{Script=Cypro_Minoan}', 'u')",
-tests/lib/rules/no-invalid-regexp.js:76:33     - Unknown word (Uyghur)      -- RegExp('\\\\p{Script=Old_Uyghur}', 'u')",
-tests/lib/rules/no-invalid-regexp.js:77:29     - Unknown word (Ougr)        -- RegExp('\\\\p{Script=Ougr}', 'u')",
-tests/lib/rules/no-invalid-regexp.js:78:29     - Unknown word (Tangsa)      -- RegExp('\\\\p{Script=Tangsa}', 'u')",
-tests/lib/rules/no-invalid-regexp.js:79:29     - Unknown word (Tnsa)        -- RegExp('\\\\p{Script=Tnsa}', 'u')",
-tests/lib/rules/no-invalid-regexp.js:81:29     - Unknown word (Vith)        -- RegExp('\\\\p{Script=Vith}', 'u')",
-tests/lib/rules/no-invalid-regexp.js:82:29     - Unknown word (Vithkuqi)    -- RegExp('\\\\p{Script=Vithkuqi}', 'u')",
+tests/lib/rules/no-invalid-regexp.js:77:29     - Unknown word (Nandinagari) -- RegExp('\\\\p{Script=Nandinagari}', 'u');",
+tests/lib/rules/no-invalid-regexp.js:81:29     - Unknown word (Cpmn)        -- RegExp('\\\\p{Script=Cpmn}', 'u')",
+tests/lib/rules/no-invalid-regexp.js:82:29     - Unknown word (Cypro)       -- RegExp('\\\\p{Script=Cypro_Minoan}', 'u')",
+tests/lib/rules/no-invalid-regexp.js:83:33     - Unknown word (Uyghur)      -- RegExp('\\\\p{Script=Old_Uyghur}', 'u')",
+tests/lib/rules/no-invalid-regexp.js:84:29     - Unknown word (Ougr)        -- RegExp('\\\\p{Script=Ougr}', 'u')",
+tests/lib/rules/no-invalid-regexp.js:85:29     - Unknown word (Tangsa)      -- RegExp('\\\\p{Script=Tangsa}', 'u')",
+tests/lib/rules/no-invalid-regexp.js:86:29     - Unknown word (Tnsa)        -- RegExp('\\\\p{Script=Tnsa}', 'u')",
+tests/lib/rules/no-invalid-regexp.js:88:29     - Unknown word (Vith)        -- RegExp('\\\\p{Script=Vith}', 'u')",
+tests/lib/rules/no-invalid-regexp.js:89:29     - Unknown word (Vithkuqi)    -- RegExp('\\\\p{Script=Vithkuqi}', 'u')",
 tests/lib/rules/no-loop-func.js:840:8     - Unknown word (Unconfigured) -- // UnconfiguredGlobalType is not defined
 tests/lib/rules/no-loop-func.js:856:52    - Unknown word (unconfig)     -- configItem: ConfiguredType, unconfigItem: UnconfiguredType
 tests/lib/rules/no-prototype-builtins.js:48:28     - Unknown word (Enumerabl)  -- code: "foo?.['propertyIsEnumerabl']('bar')",
@@ -406,7 +406,7 @@ tests/lib/rules/utils/unicode/is-combining-character.js:22:78     - Unknown word
 tests/lib/rules/utils/unicode/is-combining-character.js:23:76     - Unknown word (Etnahta)    -- true); // Hebrew Accent Etnahta
 tests/lib/rules/valid-typeof.js:98:31     - Unknown word (umdefined)  -- if (typeof bar === 'umdefined') {}",
 tests/lib/shared/string-utils.js:40:6      - Unknown word (uppercases) -- it("uppercases the first letter of
-tests/lib/types/types.test.mts:1143:7    - Unknown word (eslinter)   -- const eslinter = new ESLinter();
+tests/lib/types/types.test.mts:1140:7    - Unknown word (eslinter)   -- const eslinter = new ESLinter();
 tests/performance/jshint.js:10346:35  - Unknown word (Ashkenas)                 -- c) 2009-2013 Jeremy Ashkenas, DocumentCloud Inc.
 tests/performance/jshint.js:10490:15  - Unknown word (foldl)                    -- // or `foldl`. Delegates to **ECMAScript
 tests/performance/jshint.js:10532:67  - Unknown word (foldr)                    -- reduce, also known as `foldr`.
